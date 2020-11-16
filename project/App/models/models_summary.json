@@ -1,0 +1,3531 @@
+[{
+    "model_id": 0,
+    "name": "Ordinary linear squares regression",
+    "Description": "Ordinary linear squares regression",
+    "data": [{
+        "Type": "General",
+        "AIC": 91133.57217368472,
+        "BIC": 91597.42536774711,
+        "Quantity of data": 78989,
+        "Cross Validation Score Mean": 0.37015875372576656,
+        "R-squared": 0.7100390255269894,
+        "Adjusted R-squared": 0.7098590373367516,
+        "variables": [{"Coefficient": 23.47920876015269,
+        "Variable": "Intercept",
+        "p_value": 0.0},
+        {"Coefficient": 0.2770162849195037,
+        "Variable": "estrato[T.2.0]",
+        "p_value": 2.0359427690780403e-132},
+        {"Coefficient": 0.47655546169620283,
+        "Variable": "estrato[T.3.0]",
+        "p_value": 3.5613697268866926e-295},
+        {"Coefficient": 0.802443720238573,
+        "Variable": "estrato[T.4.0]",
+        "p_value": 0.0},
+        {"Coefficient": 1.070068132939729,
+        "Variable": "estrato[T.5.0]",
+        "p_value": 0.0},
+        {"Coefficient": 1.3810712348185823,
+        "Variable": "estrato[T.6.0]",
+        "p_value": 0.0},
+        {"Coefficient": -0.04189277420746207,
+        "Variable": "topografia[T.2]",
+        "p_value": 8.884631970697077e-10},
+        {"Coefficient": -0.07021813416265876,
+        "Variable": "topografia[T.3]",
+        "p_value": 2.138154638107054e-12},
+        {"Coefficient": 0.30359740371819577,
+        "Variable": "oft_Type_inmueble[T.Apartamento]",
+        "p_value": 9.56501639743593e-37},
+        {"Coefficient": 0.959261542959359,
+        "Variable": "oft_Type_inmueble[T.Bodega]",
+        "p_value": 8.550845619192639e-212},
+        {"Coefficient": 0.7189921795491843,
+        "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+        "p_value": 0.09560216327600089},
+        {"Coefficient": 0.5075951455320169,
+        "Variable": "oft_Type_inmueble[T.Casa]",
+        "p_value": 1.3387089398288537e-94},
+        {"Coefficient": 1.1004664654875587,
+        "Variable": "oft_Type_inmueble[T.Casa bodega]",
+        "p_value": 1.0668236659901469e-05},
+        {"Coefficient": 0.2645180066333046,
+        "Variable": "oft_Type_inmueble[T.Casa campestre]",
+        "p_value": 0.5398641439366971},
+        {"Coefficient": 0.7188607669026139,
+        "Variable": "oft_Type_inmueble[T.Casa comercial]",
+        "p_value": 0.004026960980264277},
+        {"Coefficient": 0.4628854213580756,
+        "Variable": "oft_Type_inmueble[T.Casa lote]",
+        "p_value": 6.596010594214661e-38},
+        {"Coefficient": -0.04782163818681889,
+        "Variable": "oft_Type_inmueble[T.Casa residencial]",
+        "p_value": 0.8756821495199023},
+        {"Coefficient": 0.79884824326779,
+        "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+        "p_value": 1.1931785793505778e-206},
+        {"Coefficient": -0.4924837295835579,
+        "Variable": "oft_Type_inmueble[T.Consultorio]",
+        "p_value": 2.0787270615313942e-08},
+        {"Coefficient": -1.6041542009825143,
+        "Variable": "oft_Type_inmueble[T.Deposito]",
+        "p_value": 8.398208530857708e-300},
+        {"Coefficient": 1.5571901852856131,
+        "Variable": "oft_Type_inmueble[T.Dotacional]",
+        "p_value": 1.232527159745786e-62},
+        {"Coefficient": 0.9984225659105337,
+        "Variable": "oft_Type_inmueble[T.Edificio]",
+        "p_value": 1.0579045913162838e-194},
+        {"Coefficient": 0.9740511716323953,
+        "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+        "p_value": 2.758863555119129e-10},
+        {"Coefficient": -1.5992870867726614,
+        "Variable": "oft_Type_inmueble[T.Garaje]",
+        "p_value": 2.417103371777601e-191},
+        {"Coefficient": -2.204320480419351e-15,
+        "Variable": "oft_Type_inmueble[T.Industria]",
+        "p_value": 6.61341598917384e-05},
+        {"Coefficient": 1.1411253212294756,
+        "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+        "p_value": 8.869176442855023e-121},
+        {"Coefficient": 3.935215673075343e-16,
+        "Variable": "oft_Type_inmueble[T.Institucional]",
+        "p_value": 0.3039619481773563},
+        {"Coefficient": 0.05139806165720741,
+        "Variable": "oft_Type_inmueble[T.Local]",
+        "p_value": 0.08742737328765138},
+        {"Coefficient": 0.3077433681585847,
+        "Variable": "oft_Type_inmueble[T.Lote]",
+        "p_value": 9.70606209120735e-27},
+        {"Coefficient": 0.13247269989664875,
+        "Variable": "oft_Type_inmueble[T.Oficina]",
+        "p_value": 1.1546393349769253e-06},
+        {"Coefficient": -1.7921149916174868,
+        "Variable": "oft_Type_inmueble[T.Parqueadero]",
+        "p_value": 0.0},
+        {"Coefficient": 0.934866153552848,
+        "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+        "p_value": 0.03026220705730792},
+        {"Coefficient": 4.349141955592611e-16,
+        "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+        "p_value": 0.012952453990932495},
+        {"Coefficient": -0.1600761980341623,
+        "Variable": "oft_Type_norma_juridica[T.PH]",
+        "p_value": 1.891323190827464e-176},
+        {"Coefficient": -0.04320812812299724,
+        "Variable": "cp_terr_ar[T.P]",
+        "p_value": 3.9670570163235555e-28},
+        {"Coefficient": 0.25326641735327365,
+        "Variable": "suelo[T.6]",
+        "p_value": 2.1169176247094513e-23},
+        {"Coefficient": 0.16095141540674146,
+        "Variable": "actividad_economica_Type[T.1]",
+        "p_value": 0.0002508202028908302},
+        {"Coefficient": 0.2685477735838326,
+        "Variable": "actividad_economica_Type[T.2]",
+        "p_value": 1.2627620710821349e-09},
+        {"Coefficient": 0.3259532596923285,
+        "Variable": "actividad_economica_Type[T.3]",
+        "p_value": 7.742535953584289e-10},
+        {"Coefficient": 0.4854620025410535,
+        "Variable": "actividad_economica_Type[T.4]",
+        "p_value": 6.003212895077354e-09},
+        {"Coefficient": 0.09260337914089901,
+        "Variable": "actividad_economica_Type[T.5]",
+        "p_value": 0.1364661198935163},
+        {"Coefficient": 6.08442589654714e-17,
+        "Variable": "actividad_economica_Type[T.6]",
+        "p_value": 0.7501530820594229},
+        {"Coefficient": -1.9022427196285655e-05,
+        "Variable": "x",
+        "p_value": 5.535338989189419e-176},
+        {"Coefficient": 1.3197512535759962e-05,
+        "Variable": "y",
+        "p_value": 1.3867721042702875e-262},
+        {"Coefficient": -3.728247579017846e-05,
+        "Variable": "d_tm",
+        "p_value": 6.416492159167734e-106},
+        {"Coefficient": 4.314309132189475e-05,
+        "Variable": "d_col",
+        "p_value": 5.838062881133787e-06},
+        {"Coefficient": -0.00017429960457096322,
+        "Variable": "d_highway",
+        "p_value": 5.996809861707806e-185},
+        {"Coefficient": 0.050305390918675294,
+        "Variable": "np.sqrt(oic_area_terreno)",
+        "p_value": 0.0},
+        {"Coefficient": 0.12147960735529882,
+        "Variable": "oia_cant_garajes",
+        "p_value": 0.0},
+        {"Coefficient": 5.9342262780902394e-05,
+        "Variable": "d_p_tm",
+        "p_value": 0.0},
+        {"Coefficient": -4.7061414924094814e-05,
+        "Variable": "d_bom",
+        "p_value": 1.226488631442092e-120},
+        {"Coefficient": -4.372580166168424e-05,
+        "Variable": "d_mus",
+        "p_value": 1.9752573061830334e-244},
+        {"Coefficient": 4.0177738356835604e-05,
+        "Variable": "dm_sitp",
+        "p_value": 0.0005086358261321263},
+        {"Coefficient": 0.009731826850183697,
+        "Variable": "np.sqrt(oic_area_construccion)",
+        "p_value": 0.0}]
+            }]
+    
+},
+{
+    "model_id": 1,
+    "name": "Ordinary linear squares regression without outliers",
+    "Description": "Ordinary linear squares regression without outliers",
+    "data": [{
+        "Type": "General",
+        "Quantity of data": 74157,
+        "R-squared": 0.6668496163636988,
+        "Adjusted R-squared": 0.666606841260242,
+        "Cross Validation Score Mean": 0.6410372988392593,
+        "AIC": 75177.03064935721,
+        "BIC": 75683.7973354063,
+        "variables": [{
+            "Variable": "Intercept",
+            "Coefficient": 27.33531942078716,
+            "p_value": 7.315697536469287e-72
+        }, {
+            "Variable": "oft_Type_inmueble[T.Apartamento]",
+            "Coefficient": 0.3295253532283883,
+            "p_value": 3.540679904032414e-49
+        }, {
+            "Variable": "oft_Type_inmueble[T.Bodega]",
+            "Coefficient": 1.2015480634550328,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+            "Coefficient": 1.1695899132641607,
+            "p_value": 0.003648608046644742
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa]",
+            "Coefficient": 0.7904272525171008,
+            "p_value": 3.033702852087236e-262
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa bodega]",
+            "Coefficient": 1.6836588063441826,
+            "p_value": 5.078049233902105e-13
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa campestre]",
+            "Coefficient": 5.879753575636594e-12,
+            "p_value": 1.1546405070471307e-05
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa comercial]",
+            "Coefficient": 1.2991892496347535,
+            "p_value": 2.46794203268152e-08
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa lote]",
+            "Coefficient": 0.8922486180415848,
+            "p_value": 7.026621437046548e-151
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa residencial]",
+            "Coefficient": 0.2078999486449066,
+            "p_value": 0.4657961800381538
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+            "Coefficient": 1.1448621492423008,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_inmueble[T.Consultorio]",
+            "Coefficient": -0.4205334333312198,
+            "p_value": 2.836064249630214e-07
+        }, {
+            "Variable": "oft_Type_inmueble[T.Deposito]",
+            "Coefficient": -1.7732033833556815,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_inmueble[T.Dotacional]",
+            "Coefficient": 1.488529478962659,
+            "p_value": 3.2274394961921113e-22
+        }, {
+            "Variable": "oft_Type_inmueble[T.Edificio]",
+            "Coefficient": 0.696190414667136,
+            "p_value": 9.048779884373906e-78
+        }, {
+            "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+            "Coefficient": 1.2118857434970358,
+            "p_value": 2.511777892932107e-13
+        }, {
+            "Variable": "oft_Type_inmueble[T.Garaje]",
+            "Coefficient": -1.7607960570852554,
+            "p_value": 2.9331855585707783e-265
+        }, {
+            "Variable": "oft_Type_inmueble[T.Industria]",
+            "Coefficient": -1.2285686156238245e-15,
+            "p_value": 0.4277021410690969
+        }, {
+            "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+            "Coefficient": 1.2484776953738062,
+            "p_value": 2.1040331335143305e-108
+        }, {
+            "Variable": "oft_Type_inmueble[T.Institucional]",
+            "Coefficient": -5.913389246180274e-15,
+            "p_value": 2.0316194278107217e-10
+        }, {
+            "Variable": "oft_Type_inmueble[T.Local]",
+            "Coefficient": -0.0036467895186289927,
+            "p_value": 0.8985870332456916
+        }, {
+            "Variable": "oft_Type_inmueble[T.Lote]",
+            "Coefficient": 0.43586771973753685,
+            "p_value": 5.980972681462619e-59
+        }, {
+            "Variable": "oft_Type_inmueble[T.Oficina]",
+            "Coefficient": 0.05911820227605668,
+            "p_value": 0.02153842924085318
+        }, {
+            "Variable": "oft_Type_inmueble[T.Parqueadero]",
+            "Coefficient": -1.9381298695735885,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+            "Coefficient": 1.4816590686052176,
+            "p_value": 0.00023050292909605427
+        }, {
+            "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+            "Coefficient": -1.952031613189173e-15,
+            "p_value": 0.006478278919542843
+        }, {
+            "Variable": "loccodigo[T.2.0]",
+            "Coefficient": -0.06723402410337169,
+            "p_value": 1.4111822214375748e-12
+        }, {
+            "Variable": "loccodigo[T.3.0]",
+            "Coefficient": -0.13254884482697787,
+            "p_value": 1.3257720340534503e-14
+        }, {
+            "Variable": "loccodigo[T.4.0]",
+            "Coefficient": -0.37331735055384396,
+            "p_value": 2.1313037986769912e-175
+        }, {
+            "Variable": "loccodigo[T.5.0]",
+            "Coefficient": -0.09322643828835887,
+            "p_value": 8.00499575219175e-08
+        }, {
+            "Variable": "loccodigo[T.6.0]",
+            "Coefficient": -0.06354097074889746,
+            "p_value": 0.0008631958588593824
+        }, {
+            "Variable": "loccodigo[T.7.0]",
+            "Coefficient": 0.11562596196546181,
+            "p_value": 2.7407205854555964e-08
+        }, {
+            "Variable": "loccodigo[T.8.0]",
+            "Coefficient": -0.0285031429206567,
+            "p_value": 0.08555931835514904
+        }, {
+            "Variable": "loccodigo[T.9.0]",
+            "Coefficient": 0.046355974035021945,
+            "p_value": 0.004325482924474651
+        }, {
+            "Variable": "loccodigo[T.10.0]",
+            "Coefficient": 0.0028167007437758977,
+            "p_value": 0.8302056096339668
+        }, {
+            "Variable": "loccodigo[T.11.0]",
+            "Coefficient": 0.022546261371213256,
+            "p_value": 0.0012509473313152691
+        }, {
+            "Variable": "loccodigo[T.12.0]",
+            "Coefficient": 0.03958420855053506,
+            "p_value": 0.002354165116100731
+        }, {
+            "Variable": "loccodigo[T.13.0]",
+            "Coefficient": -0.029478685571623357,
+            "p_value": 0.02886200332344935
+        }, {
+            "Variable": "loccodigo[T.14.0]",
+            "Coefficient": -0.0725936933502152,
+            "p_value": 0.0009431534003804345
+        }, {
+            "Variable": "loccodigo[T.15.0]",
+            "Coefficient": 0.03587610074077604,
+            "p_value": 0.07160927837881098
+        }, {
+            "Variable": "loccodigo[T.16.0]",
+            "Coefficient": -0.06738545009617805,
+            "p_value": 0.00014239869913966583
+        }, {
+            "Variable": "loccodigo[T.17.0]",
+            "Coefficient": -0.0954426256232381,
+            "p_value": 0.010623017894295388
+        }, {
+            "Variable": "loccodigo[T.18.0]",
+            "Coefficient": -0.3076431942674898,
+            "p_value": 9.79601684627513e-86
+        }, {
+            "Variable": "loccodigo[T.19.0]",
+            "Coefficient": -0.18345463505371648,
+            "p_value": 5.433608031412237e-24
+        }, {
+            "Variable": "estrato[T.2.0]",
+            "Coefficient": 0.3227208178521026,
+            "p_value": 3.6106507108783e-190
+        }, {
+            "Variable": "estrato[T.3.0]",
+            "Coefficient": 0.5587006481740671,
+            "p_value": 0.0
+        }, {
+            "Variable": "estrato[T.4.0]",
+            "Coefficient": 0.8826333457024852,
+            "p_value": 0.0
+        }, {
+            "Variable": "estrato[T.5.0]",
+            "Coefficient": 1.1704443346672024,
+            "p_value": 0.0
+        }, {
+            "Variable": "estrato[T.6.0]",
+            "Coefficient": 1.3859456570513145,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_norma_juridica[T.PH]",
+            "Coefficient": -0.273973419461811,
+            "p_value": 0.0
+        }, {
+            "Variable": "oia_cant_garajes",
+            "Coefficient": 0.12097546726361356,
+            "p_value": 0.0
+        }, {
+            "Variable": "x",
+            "Coefficient": -8.702423118519999e-06,
+            "p_value": 9.199331125423027e-09
+        }, {
+            "Variable": "d_highway",
+            "Coefficient": -0.0001644139764608348,
+            "p_value": 2.3006128633901565e-182
+        }, {
+            "Variable": "d_ssf",
+            "Coefficient": -2.982803401362945e-05,
+            "p_value": 4.476924125331316e-27
+        }, {
+            "Variable": "d_mus",
+            "Coefficient": -5.73602807849225e-05,
+            "p_value": 2.806134096296591e-169
+        }, {
+            "Variable": "d_tm",
+            "Coefficient": -5.428348317898035e-05,
+            "p_value": 3.0821405521589938e-106
+        }, {
+            "Variable": "d_p_tm",
+            "Coefficient": 3.740855296825442e-05,
+            "p_value": 5.4132411138354204e-98
+        }, {
+            "Variable": "d_ies",
+            "Coefficient": -5.3406542047596664e-06,
+            "p_value": 0.013762373725330656
+        }, {
+            "Variable": "d_ips",
+            "Coefficient": -4.957751568555327e-05,
+            "p_value": 8.039239640223163e-10
+        }]
+    }, {
+        "Type": "Estrato",
+        "data": [{
+            "Type": "Estrato",
+            "Estrato": 1,
+            "Quantity of data": 2249,
+            "R-squared": 0.6170702328044352,
+            "Adjusted R-squared": 0.613111857682863,
+            "Cross Validation Score Mean": 0.5035703137210661,
+            "AIC": 2692.9044257370724,
+            "BIC": 2830.142208584096,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 17.73703533924832,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 2.011578356337125,
+                "p_value": 1.312648162435877e-156
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 2.4354062566431094,
+                "p_value": 9.939731819003433e-119
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": -3.1909924820215676e-12,
+                "p_value": 3.179678728674377e-28
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 2.1476016847320563,
+                "p_value": 4.3648902268106104e-213
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": 1.4605954051545285e-15,
+                "p_value": 2.465261290192865e-140
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -1.0356963972464856e-14,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -6.093827479667151e-15,
+                "p_value": 6.951733037240835e-95
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 1.942653955671689,
+                "p_value": 3.120961326139227e-79
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": 3.0776965981162196e-15,
+                "p_value": 4.391533486758587e-40
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 2.2646819436295464,
+                "p_value": 5.1692130458320046e-210
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -3.1278340361099236e-15,
+                "p_value": 8.047615409009972e-28
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": 1.8299227549289976e-15,
+                "p_value": 1.6211139229858171e-52
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": -3.060467153374748e-16,
+                "p_value": 6.008901481003061e-37
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": -4.2196221170605845e-15,
+                "p_value": 1.1787712596094986e-43
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": -1.0124399288956935e-15,
+                "p_value": 1.331431651855015e-10
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -3.2607636899322943e-15,
+                "p_value": 1.6719433647133252e-16
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": -1.0563331247353256e-16,
+                "p_value": 6.095443796951442e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 2.2780920847664423,
+                "p_value": 8.431181933560563e-16
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": -2.135382962886216e-16,
+                "p_value": 7.269013617336421e-07
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 2.924900811509732,
+                "p_value": 5.319887780340047e-118
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 1.7321202459769434,
+                "p_value": 6.647436984174998e-127
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": -4.810978082388259e-16,
+                "p_value": 2.3503384562102965e-72
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.749258549683441e-17,
+                "p_value": 0.02324064865718336
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": -0.3706989165647041,
+                "p_value": 0.19178713480375412
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": -0.5768515970269695,
+                "p_value": 0.003957222723419325
+            }, {
+                "Variable": "loccodigo[T.4.0]",
+                "Coefficient": -0.22408854794789707,
+                "p_value": 0.22699623520286447
+            }, {
+                "Variable": "loccodigo[T.5.0]",
+                "Coefficient": -0.6446200338915143,
+                "p_value": 0.0004228345184050414
+            }, {
+                "Variable": "loccodigo[T.7.0]",
+                "Coefficient": -0.45600494108612816,
+                "p_value": 0.01371778314181094
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": -0.4347554241362206,
+                "p_value": 0.04960035941054986
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": -0.3978589975924446,
+                "p_value": 0.11022357964859623
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.15851962828183974,
+                "p_value": 0.499843996917396
+            }, {
+                "Variable": "loccodigo[T.18.0]",
+                "Coefficient": -0.679164077689688,
+                "p_value": 0.00031374178459097837
+            }, {
+                "Variable": "loccodigo[T.19.0]",
+                "Coefficient": -0.5711855604011645,
+                "p_value": 0.0016694041637576279
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.26917316839240907,
+                "p_value": 5.70905610418408e-32
+            }, {
+                "Variable": "suelo[T.6]",
+                "Coefficient": 0.29076248242702063,
+                "p_value": 8.076378989896767e-12
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.0037064737545227187,
+                "p_value": 1.7425118391414326e-143
+            }, {
+                "Variable": "d_bikeway",
+                "Coefficient": -0.00018263860928611561,
+                "p_value": 4.700574953713407e-16
+            }, {
+                "Variable": "d_lib",
+                "Coefficient": -6.30014584336194e-05,
+                "p_value": 2.2170502921496874e-07
+            }, {
+                "Variable": "z",
+                "Coefficient": -0.0003742184172070211,
+                "p_value": 0.005694620240381002
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 2,
+            "Quantity of data": 7050,
+            "R-squared": 0.6047099122497908,
+            "Adjusted R-squared": 0.6022837812516093,
+            "Cross Validation Score Mean": 0.5319090236186004,
+            "AIC": 7129.15484462204,
+            "BIC": 7431.029292037519,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 16.885112981733258,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 1.3673806287673163,
+                "p_value": 2.7235196979927348e-236
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 1.8664606650623692,
+                "p_value": 8.876027903054489e-188
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": 7.0039547260608874e-15,
+                "p_value": 2.8655220507040596e-142
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 1.5578219015085142,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": -5.2821967148905656e-15,
+                "p_value": 5.2230146465411376e-39
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -4.502721304696953e-15,
+                "p_value": 2.9032145321471925e-45
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -8.053964327691165e-15,
+                "p_value": 1.0787846056356162e-139
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 1.1808370944583042,
+                "p_value": 5.49632447722195e-84
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": -2.8217318022802958e-15,
+                "p_value": 2.09084761964699e-88
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 1.7844043059750156,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": 4.535537577233129e-15,
+                "p_value": 1.725237985503926e-54
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -0.13522457289080536,
+                "p_value": 0.1706266598716187
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": -2.1619228871873047e-16,
+                "p_value": 0.1180861644737284
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 2.1867714332509673,
+                "p_value": 7.531865839700799e-68
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 2.6262164820487066,
+                "p_value": 2.0077066560113336e-19
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -0.39806431416706756,
+                "p_value": 0.0014985188105694385
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": 3.9299684801621635e-15,
+                "p_value": 4.481008311862498e-75
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 2.0145088455654743,
+                "p_value": 1.4171854763757383e-31
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": 2.334285834971069e-15,
+                "p_value": 1.3599340188774707e-11
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 0.8184477701502935,
+                "p_value": 3.500704401733442e-39
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 1.0232365465198474,
+                "p_value": 7.675536986435381e-83
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 1.2526453318080648,
+                "p_value": 3.240899905418961e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -0.2603291363236528,
+                "p_value": 0.0048838001632897105
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+                "Coefficient": 1.7839822822022488e-16,
+                "p_value": 0.3648392476554727
+            }, {
+                "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+                "Coefficient": -3.774620778673503e-16,
+                "p_value": 0.006137634505844696
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.3558290415722476,
+                "p_value": 0.37848610717309394
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": -0.45827176435687533,
+                "p_value": 5.509371250408358e-12
+            }, {
+                "Variable": "loccodigo[T.4.0]",
+                "Coefficient": -0.43552908878364666,
+                "p_value": 5.665889512143668e-15
+            }, {
+                "Variable": "loccodigo[T.5.0]",
+                "Coefficient": -0.47845194972642136,
+                "p_value": 1.197730615915196e-17
+            }, {
+                "Variable": "loccodigo[T.6.0]",
+                "Coefficient": -0.30886238303020597,
+                "p_value": 1.552561188944844e-07
+            }, {
+                "Variable": "loccodigo[T.7.0]",
+                "Coefficient": -0.3676138132690502,
+                "p_value": 1.4364513266582107e-11
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": -0.25057863671749364,
+                "p_value": 4.123186512416913e-06
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": -0.2394956402884381,
+                "p_value": 5.965248765756863e-05
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": -0.08813551041457093,
+                "p_value": 0.12056729055898932
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.22383650658596416,
+                "p_value": 4.162153695003221e-05
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": 5.910717887325936e-17,
+                "p_value": 0.46187519959600287
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": -7.670250674803834e-16,
+                "p_value": 2.4317219479209842e-18
+            }, {
+                "Variable": "loccodigo[T.14.0]",
+                "Coefficient": -0.06549886737316367,
+                "p_value": 0.6386441453044973
+            }, {
+                "Variable": "loccodigo[T.15.0]",
+                "Coefficient": 0.45417230904372113,
+                "p_value": 0.002787784551744543
+            }, {
+                "Variable": "loccodigo[T.16.0]",
+                "Coefficient": 4.0892859036262104e-17,
+                "p_value": 0.46612522456510297
+            }, {
+                "Variable": "loccodigo[T.17.0]",
+                "Coefficient": -0.20857395239578627,
+                "p_value": 0.015864286497480763
+            }, {
+                "Variable": "loccodigo[T.18.0]",
+                "Coefficient": -0.40819498305443797,
+                "p_value": 2.333443310907282e-12
+            }, {
+                "Variable": "loccodigo[T.19.0]",
+                "Coefficient": -0.35090001358287287,
+                "p_value": 3.5314625882832917e-10
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.2435960008323289,
+                "p_value": 6.372283874307667e-71
+            }, {
+                "Variable": "topografia[T.2]",
+                "Coefficient": -0.17147762000605946,
+                "p_value": 8.310143144649802e-16
+            }, {
+                "Variable": "topografia[T.3]",
+                "Coefficient": -0.19786520787822778,
+                "p_value": 4.122044326716492e-12
+            }, {
+                "Variable": "serpub_Type[T.1]",
+                "Coefficient": 0.45009634725861075,
+                "p_value": 0.061892669262851294
+            }, {
+                "Variable": "serpub_Type[T.2]",
+                "Coefficient": 0.33118116534723613,
+                "p_value": 0.08496370395305257
+            }, {
+                "Variable": "serpub_Type[T.4]",
+                "Coefficient": 0.3540750091893002,
+                "p_value": 0.019652459055065574
+            }, {
+                "Variable": "serpub_Type[T.5]",
+                "Coefficient": 0.5543570156305764,
+                "p_value": 3.0080579767029324e-05
+            }, {
+                "Variable": "actividad_economica_Type[T.1]",
+                "Coefficient": 0.34786358003098106,
+                "p_value": 0.0001709271782209803
+            }, {
+                "Variable": "actividad_economica_Type[T.2]",
+                "Coefficient": 0.5630505205070377,
+                "p_value": 2.008692170623881e-09
+            }, {
+                "Variable": "actividad_economica_Type[T.3]",
+                "Coefficient": 0.3347193503179052,
+                "p_value": 0.0037858668055571654
+            }, {
+                "Variable": "actividad_economica_Type[T.4]",
+                "Coefficient": 0.09261634639983055,
+                "p_value": 0.8309859686140549
+            }, {
+                "Variable": "actividad_economica_Type[T.5]",
+                "Coefficient": 0.4943960266390581,
+                "p_value": 0.005438272716312341
+            }, {
+                "Variable": "cp_terr_ar[T.P]",
+                "Coefficient": -0.14564292363990536,
+                "p_value": 7.7254230601872255e-25
+            }, {
+                "Variable": "oic_area_terreno",
+                "Coefficient": 0.003649573152992568,
+                "p_value": 1.4067832409117907e-249
+            }, {
+                "Variable": "d_park",
+                "Coefficient": 0.00021000216759785835,
+                "p_value": 0.0020709479552631625
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 3,
+            "Quantity of data": 24844,
+            "R-squared": 0.6945791822734334,
+            "Adjusted R-squared": 0.6940249465770991,
+            "Cross Validation Score Mean": 0.6225497361716681,
+            "AIC": 18644.26097907746,
+            "BIC": 19017.7980705467,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 19.08077195900173,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.17450557992857751,
+                "p_value": 0.00017416257892046056
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 0.7681600679558893,
+                "p_value": 5.406121524745612e-50
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": 0.8918041701322368,
+                "p_value": 0.012027870900956703
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.4984532782253189,
+                "p_value": 2.649649875624746e-26
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": 0.7927878047816223,
+                "p_value": 0.0017527254952640111
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": 4.4109251201451333e-16,
+                "p_value": 0.5286088365327665
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": 0.7594596656897261,
+                "p_value": 0.00027218366887521396
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 0.561357825180813,
+                "p_value": 5.384387183403407e-22
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": 0.20888867800289646,
+                "p_value": 0.4097917155532753
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 0.6640160104131754,
+                "p_value": 4.4960787648426034e-43
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -3.3323794133024503e-15,
+                "p_value": 0.006634853910679891
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -0.7456448925680206,
+                "p_value": 1.9046320141145583e-25
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": 0.6679663064685132,
+                "p_value": 0.0002476298577345178
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 0.7940152492351095,
+                "p_value": 3.8217126612162493e-34
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 0.7320761642193816,
+                "p_value": 5.900399284623225e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.6223194831464824,
+                "p_value": 4.38235148644388e-84
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": -1.1675088869630365e-15,
+                "p_value": 0.010473905748349116
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 0.7871455553696631,
+                "p_value": 2.8305869116273105e-24
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": -1.2760777460017672e-15,
+                "p_value": 0.005907707642219456
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": -0.34769320374748214,
+                "p_value": 9.453502511139411e-12
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 0.5045251605472187,
+                "p_value": 9.611063355185961e-23
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 0.11401122080056766,
+                "p_value": 0.034281289351152
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.9707973171386275,
+                "p_value": 8.606323247140345e-264
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+                "Coefficient": -7.956604570843787e-17,
+                "p_value": 0.7531803873744545
+            }, {
+                "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+                "Coefficient": 3.846950230833249e-15,
+                "p_value": 1.1767393062127312e-14
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.2571697088560306,
+                "p_value": 6.658471985550377e-20
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": 0.09089534918344207,
+                "p_value": 0.0020460642050022
+            }, {
+                "Variable": "loccodigo[T.4.0]",
+                "Coefficient": -0.24862252407921237,
+                "p_value": 1.6803628110460727e-26
+            }, {
+                "Variable": "loccodigo[T.5.0]",
+                "Coefficient": 4.129323235576249e-17,
+                "p_value": 0.7867320964574269
+            }, {
+                "Variable": "loccodigo[T.6.0]",
+                "Coefficient": -0.1304357910375456,
+                "p_value": 3.327481508560147e-06
+            }, {
+                "Variable": "loccodigo[T.7.0]",
+                "Coefficient": 0.08191093895616008,
+                "p_value": 0.02745822349727799
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": 0.0954808590691367,
+                "p_value": 9.159289561906169e-07
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": 0.006594356499988074,
+                "p_value": 0.6843446700769826
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": 0.006724098840165407,
+                "p_value": 0.6716991274578741
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": 0.08712687542080937,
+                "p_value": 1.620437134671941e-09
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": 0.09543484431926075,
+                "p_value": 6.625204515008203e-05
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": 0.1806809371740319,
+                "p_value": 1.0432535928072838e-10
+            }, {
+                "Variable": "loccodigo[T.14.0]",
+                "Coefficient": -0.04678145290935262,
+                "p_value": 0.0760191718389675
+            }, {
+                "Variable": "loccodigo[T.15.0]",
+                "Coefficient": 0.018019164226926454,
+                "p_value": 0.47460143933137633
+            }, {
+                "Variable": "loccodigo[T.16.0]",
+                "Coefficient": 0.015256102692551843,
+                "p_value": 0.469451628852221
+            }, {
+                "Variable": "loccodigo[T.17.0]",
+                "Coefficient": 0.08371203876933983,
+                "p_value": 0.09018505320604361
+            }, {
+                "Variable": "loccodigo[T.18.0]",
+                "Coefficient": -0.2309027731144166,
+                "p_value": 3.3749848127266187e-21
+            }, {
+                "Variable": "loccodigo[T.19.0]",
+                "Coefficient": -0.021612743018414343,
+                "p_value": 0.40744887120218276
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.0759705919244339,
+                "p_value": 6.215653836224152e-25
+            }, {
+                "Variable": "suelo[T.6]",
+                "Coefficient": -0.024318870303125004,
+                "p_value": 0.6640252794487136
+            }, {
+                "Variable": "topografia[T.2]",
+                "Coefficient": -0.1585338293062339,
+                "p_value": 7.091166974450173e-24
+            }, {
+                "Variable": "topografia[T.3]",
+                "Coefficient": -0.27247654010391975,
+                "p_value": 9.956414883452515e-18
+            }, {
+                "Variable": "oic_area_terreno",
+                "Coefficient": 0.002550016772424694,
+                "p_value": 0.0
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.0010909586393307727,
+                "p_value": 0.0
+            }, {
+                "Variable": "d_park",
+                "Coefficient": -8.551521032614827e-05,
+                "p_value": 0.013450435613134143
+            }, {
+                "Variable": "d_mus",
+                "Coefficient": -6.515235949707824e-05,
+                "p_value": 1.5778497219576475e-130
+            }, {
+                "Variable": "d_gy",
+                "Coefficient": -1.3450846722998087e-05,
+                "p_value": 3.301075654264758e-10
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 4,
+            "Quantity of data": 17826,
+            "R-squared": 0.6311177337861988,
+            "Adjusted R-squared": 0.6305581303932462,
+            "Cross Validation Score Mean": 0.5693496423135416,
+            "AIC": 9987.626776285371,
+            "BIC": 10205.70234993671,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 19.35891111941356,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.20185932448846688,
+                "p_value": 1.981199874244228e-12
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 0.7238988636351644,
+                "p_value": 0.00010883116379751161
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": -4.250522758408164e-15,
+                "p_value": 5.8218001819077056e-68
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.36951400412622554,
+                "p_value": 3.859335855863957e-34
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": -6.084684161751415e-16,
+                "p_value": 0.0003716949371909206
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -2.4716384605070983e-16,
+                "p_value": 0.04119264498361611
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": 7.64063990044756e-15,
+                "p_value": 1.646292832551436e-27
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 0.7566192534972417,
+                "p_value": 5.415335284916536e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": -1.9901171577958585e-15,
+                "p_value": 3.51377860036551e-17
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 0.5260180272472925,
+                "p_value": 2.0895985427985802e-23
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -0.7418561092447797,
+                "p_value": 5.078584944210357e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -2.8679713983422204,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": 1.128158360765673e-15,
+                "p_value": 6.4270420415319716e-127
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 0.17936498623232303,
+                "p_value": 0.023071080879594627
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 4.674545717280284e-16,
+                "p_value": 6.575415264273404e-08
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.939677409839851,
+                "p_value": 2.3818902627717007e-190
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": -3.699046674797443e-16,
+                "p_value": 2.489042597746274e-19
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 0.37360883361709707,
+                "p_value": 0.022066680024118095
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": -6.283816105643526e-16,
+                "p_value": 2.2899346948205485e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 0.013999891516938454,
+                "p_value": 0.7607143214830974
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 0.9038935148297677,
+                "p_value": 8.004330454708294e-26
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 0.11532917320167899,
+                "p_value": 0.0015520979578684362
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -2.0309681756057754,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+                "Coefficient": -1.244049435951722e-16,
+                "p_value": 2.1142731698452276e-19
+            }, {
+                "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+                "Coefficient": 1.2302381819063402e-17,
+                "p_value": 0.3913633885584539
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.1394946446898947,
+                "p_value": 6.072486782967321e-42
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": 0.30446361018237794,
+                "p_value": 3.782335111680116e-46
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": -0.0193577526625679,
+                "p_value": 0.22266897841984068
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": 0.0751810049631553,
+                "p_value": 3.388437788194303e-21
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": 0.00600150686024193,
+                "p_value": 0.6402597610285266
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": 0.004275207873630001,
+                "p_value": 0.5125828528515668
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": 0.16450407063311143,
+                "p_value": 1.998128943634745e-39
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": 0.18826097393438218,
+                "p_value": 2.8084708130544003e-109
+            }, {
+                "Variable": "loccodigo[T.14.0]",
+                "Coefficient": 0.21503226828165228,
+                "p_value": 0.0006355340101238828
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.05615547282507131,
+                "p_value": 2.655777042028623e-05
+            }, {
+                "Variable": "suelo[T.6]",
+                "Coefficient": -0.3183157688601927,
+                "p_value": 1.211911904355082e-06
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.0028445133297246832,
+                "p_value": 0.0
+            }, {
+                "Variable": "oia_cant_garajes",
+                "Coefficient": 0.16703012403453654,
+                "p_value": 0.0
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 5,
+            "Quantity of data": 8527,
+            "R-squared": 0.5020485620746229,
+            "Adjusted R-squared": 0.5007603528043549,
+            "Cross Validation Score Mean": 0.4389728787406068,
+            "AIC": 5708.8149000381345,
+            "BIC": 5870.987736249202,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 19.070701373640087,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.2951387188432021,
+                "p_value": 4.8852406606599507e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 0.444411935174843,
+                "p_value": 0.06677511855876685
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": -7.090240207931364e-15,
+                "p_value": 3.531060259610427e-49
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.4871231330043825,
+                "p_value": 3.868964766950624e-30
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": -5.632426781044694e-16,
+                "p_value": 4.12409451672842e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -1.799120303907631e-15,
+                "p_value": 2.1348589893959762e-70
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": 9.167576811814726e-16,
+                "p_value": 3.0370001645830704e-78
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": -3.2737284992153764e-16,
+                "p_value": 4.812548671229395e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": 2.6131113405727715e-15,
+                "p_value": 9.344359901314556e-298
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 0.6926332287493374,
+                "p_value": 0.04228087003272676
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -0.2922954502542848,
+                "p_value": 0.00408917856980785
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -4.147302840419962,
+                "p_value": 4.319109405219026e-93
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": -2.7672610028396186e-15,
+                "p_value": 1.4054340123452309e-27
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": -0.36973275039430475,
+                "p_value": 2.7807818099714702e-08
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 4.475883083873856e-16,
+                "p_value": 1.9100068324101902e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.524684957635971,
+                "p_value": 1.955097342124772e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": -5.16755539363232e-16,
+                "p_value": 2.844516673596095e-13
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 6.509451245648704e-17,
+                "p_value": 0.4252832267301899
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": 1.8357792925092657e-16,
+                "p_value": 6.441459258403414e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 0.1503544287590326,
+                "p_value": 0.07772622634950098
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": -0.24240544109961804,
+                "p_value": 0.22349802044735256
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": -0.025989064795229666,
+                "p_value": 0.5470487931173869
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.7626737466434141,
+                "p_value": 2.3128956580704196e-106
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.08919272879154883,
+                "p_value": 9.811582686703627e-10
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": 0.33428501286704443,
+                "p_value": 2.83685568114523e-23
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.12134052974183192,
+                "p_value": 1.4909392128290949e-49
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": -0.07778516368591153,
+                "p_value": 0.06796549472867608
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": 0.09623317863837492,
+                "p_value": 1.727860645633192e-05
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": 0.17654078998105618,
+                "p_value": 4.5208112993767964e-11
+            }, {
+                "Variable": "topografia[T.2]",
+                "Coefficient": 0.15391052227482985,
+                "p_value": 5.568908472353108e-12
+            }, {
+                "Variable": "topografia[T.3]",
+                "Coefficient": 0.2221534752265561,
+                "p_value": 7.134113057785434e-05
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.0031054807053777773,
+                "p_value": 0.0
+            }, {
+                "Variable": "oia_cant_garajes",
+                "Coefficient": 0.1130434433833798,
+                "p_value": 5.213177303247167e-126
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 6,
+            "Quantity of data": 6612,
+            "R-squared": 0.5599424109730042,
+            "Adjusted R-squared": 0.5590085309902275,
+            "Cross Validation Score Mean": 0.524638350108939,
+            "AIC": 3248.030610283502,
+            "BIC": 3349.9802321676157,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 18.6066129163681,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.10752865285763202,
+                "p_value": 0.0052775560264735726
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 1.6590256625303716e-15,
+                "p_value": 2.040088187414409e-268
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": 4.138985398186298e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.03752574801286945,
+                "p_value": 0.4761333514703059
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": -7.26897728622081e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -2.2777232574969866e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": 2.0477988078741026e-16,
+                "p_value": 3.217142030619661e-44
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 1.5887935981121912e-16,
+                "p_value": 9.90652041270901e-58
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": 1.0235514729365903e-15,
+                "p_value": 1.029300107540886e-142
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 6.884858427049728e-16,
+                "p_value": 6.133801362555289e-132
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -0.15342198962221,
+                "p_value": 0.16264596768822195
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -2.3611390715219134,
+                "p_value": 6.368801561515515e-99
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": -1.3797243143710292e-16,
+                "p_value": 9.828431206629586e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": -0.17595071152835015,
+                "p_value": 0.011134101784597446
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.7069068400712009,
+                "p_value": 2.78426672116338e-48
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": -0.01421151697556855,
+                "p_value": 0.8549467055032111
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": -0.009666219719975722,
+                "p_value": 0.8210876413810209
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.886574068561106,
+                "p_value": 1.2079687550497101e-120
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.12987668882420056,
+                "p_value": 1.3244815450739194e-50
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.0711398834625534,
+                "p_value": 0.0003781433886542294
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": 0.7200468899598946,
+                "p_value": 5.822719084520175e-13
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.00590727415972603,
+                "p_value": 0.0
+            }, {
+                "Variable": "oia_cant_garajes",
+                "Coefficient": 0.06375060759244122,
+                "p_value": 4.459273994423401e-38
+            }]
+        }]
+    }]
+},{
+    "model_id": 2,
+    "name": "Weighted least squares regression",
+    "Description": "Weighted least squares regression",
+    "data": [{
+        "Type": "General",
+        "AIC": 85306.9,
+        "BIC": 86352.2,
+        "Quantity of data": 78989,
+        "R-squared": 0.7494, 
+        "Adjusted R-squared": 0.7493,
+        "variables": [{"Coefficient": 20.3642770809512, "Variable": "Intercept", "p_value": 0.0},
+            {"Coefficient": 0.258808867288898, "Variable": "estrato", "p_value": 0.0},
+            {"Coefficient": -1.5792738974491002e-05,
+             "Variable": "x",
+             "p_value": 1.2770857899656095e-150},
+            {"Coefficient": 1.2645671189244501e-05,
+             "Variable": "y",
+             "p_value": 2.059988427236059e-301},
+            {"Coefficient": -0.0450065587609023,
+             "Variable": "topografia2",
+             "p_value": 9.61159595842528e-13},
+            {"Coefficient": -0.0936995420456741,
+             "Variable": "topografia3",
+             "p_value": 6.77299292159136e-24},
+            {"Coefficient": -3.4755213229665195e-05,
+             "Variable": "d_tm",
+             "p_value": 1.8838324495698995e-109},
+            {"Coefficient": 6.317616915261751e-05,
+             "Variable": "d_col",
+             "p_value": 2.8869879292035497e-12},
+            {"Coefficient": 0.22511443574914605,
+             "Variable": "oft_Type_inmuebleApartamento",
+             "p_value": 2.47078754582353e-23},
+            {"Coefficient": 0.7894034364222571,
+             "Variable": "oft_Type_inmuebleBodega",
+             "p_value": 1.953504256497429e-148},
+            {"Coefficient": 0.46528437522151894,
+             "Variable": "oft_Type_inmuebleBodega comercial",
+             "p_value": 0.309954646051336},
+            {"Coefficient": 0.34287952433533103,
+             "Variable": "oft_Type_inmuebleCasa",
+             "p_value": 3.0283788598458597e-49},
+            {"Coefficient": 0.8382611858690341,
+             "Variable": "oft_Type_inmuebleCasa bodega",
+             "p_value": 0.00165614500162308},
+            {"Coefficient": -0.0112300519268196,
+             "Variable": "oft_Type_inmuebleCasa campestre",
+             "p_value": 0.983080728767697},
+            {"Coefficient": 0.40962240377211295,
+             "Variable": "oft_Type_inmuebleCasa comercial",
+             "p_value": 0.11120701704064999},
+            {"Coefficient": 0.36473494500733794,
+             "Variable": "oft_Type_inmuebleCasa lote",
+             "p_value": 3.3027775845761197e-26},
+            {"Coefficient": -0.24522255310853,
+             "Variable": "oft_Type_inmuebleCasa residencial",
+             "p_value": 0.396231144029438},
+            {"Coefficient": 0.5631441519934061,
+             "Variable": "oft_Type_inmuebleCasa uso mixto",
+             "p_value": 2.6457924927955793e-114},
+            {"Coefficient": -0.442649194442992,
+             "Variable": "oft_Type_inmuebleConsultorio",
+             "p_value": 4.34627365183378e-08},
+            {"Coefficient": -1.73191139856352,
+             "Variable": "oft_Type_inmuebleDeposito",
+             "p_value": 0.0},
+            {"Coefficient": 0.34898257538517496,
+             "Variable": "oft_Type_inmuebleDepósito",
+             "p_value": 0.429024611422349},
+            {"Coefficient": 1.32248584684592,
+             "Variable": "oft_Type_inmuebleDotacional",
+             "p_value": 5.32086024686135e-37},
+            {"Coefficient": 0.8196777810324459,
+             "Variable": "oft_Type_inmuebleEdificio",
+             "p_value": 1.1892487166701296e-126},
+            {"Coefficient": 0.657301649560129,
+             "Variable": "oft_Type_inmuebleEdificio comercial",
+             "p_value": 5.60324472580431e-05},
+            {"Coefficient": -1.51885272717501,
+             "Variable": "oft_Type_inmuebleGaraje",
+             "p_value": 0.0},
+            {"Coefficient": 0.876636347464925,
+             "Variable": "oft_Type_inmuebleInmueble comercial",
+             "p_value": 3.750145707745779e-65},
+            {"Coefficient": 0.00637401068604749,
+             "Variable": "oft_Type_inmuebleLocal",
+             "p_value": 0.820030396820164},
+            {"Coefficient": 0.371764103000533,
+             "Variable": "oft_Type_inmuebleLote",
+             "p_value": 2.89589534733427e-43},
+            {"Coefficient": 0.0963705074807384,
+             "Variable": "oft_Type_inmuebleOficina",
+             "p_value": 0.00021002816257933502},
+            {"Coefficient": -1.71888677972366,
+             "Variable": "oft_Type_inmuebleParqueadero",
+             "p_value": 0.0},
+            {"Coefficient": 1.05680226877686,
+             "Variable": "oft_Type_inmuebleParqueadero - lava autos",
+             "p_value": 0.0186211565787196},
+            {"Coefficient": -0.000155204199385472,
+             "Variable": "d_highway",
+             "p_value": 1.6410868632170293e-186},
+            {"Coefficient": -0.136291442662376,
+             "Variable": "oft_Type_norma_juridicaPH",
+             "p_value": 3.4385731530900394e-136},
+            {"Coefficient": 0.0428988067960522,
+             "Variable": "sqrt(oic_area_terreno)",
+             "p_value": 0.0},
+            {"Coefficient": 0.12285672349325501,
+             "Variable": "oia_cant_garajes",
+             "p_value": 0.0},
+            {"Coefficient": -0.0323401548213955,
+             "Variable": "cp_terr_arP",
+             "p_value": 4.07272518975729e-18},
+            {"Coefficient": 0.247848621461747,
+             "Variable": "suelo6",
+             "p_value": 3.19359788679422e-30},
+            {"Coefficient": 5.6537370446046496e-05, "Variable": "d_p_tm", "p_value": 0.0},
+            {"Coefficient": -4.1549522945077397e-05,
+             "Variable": "d_bom",
+             "p_value": 8.947204600089459e-118},
+            {"Coefficient": -3.2636395596187e-05,
+             "Variable": "d_mus",
+             "p_value": 6.141263373889186e-182},
+            {"Coefficient": 0.136830231776594,
+             "Variable": "actividad_economica_Type1",
+             "p_value": 0.000228825811952151},
+            {"Coefficient": 0.24477577076106102,
+             "Variable": "actividad_economica_Type2",
+             "p_value": 6.330592246309189e-11},
+            {"Coefficient": 0.246224421104201,
+             "Variable": "actividad_economica_Type3",
+             "p_value": 2.94031809347402e-07},
+            {"Coefficient": 0.408201972324463,
+             "Variable": "actividad_economica_Type4",
+             "p_value": 1.6031595327416999e-07},
+            {"Coefficient": 0.08558809214221601,
+             "Variable": "actividad_economica_Type5",
+             "p_value": 0.11248113105408501},
+            {"Coefficient": 4.67944568643968e-05,
+             "Variable": "dm_sitp",
+             "p_value": 3.2447922991689e-05},
+            {"Coefficient": 0.0410992559739052,
+             "Variable": "sqrt(oic_area_construccion)",
+             "p_value": 0.0}]
+            }]
+    
+}, {
+    "model_id": 4,
+    "name": "Ordinary least squares with resample",
+    "Description": "Ordinary least squares with resample",
+    "data": [{
+        "Type": "General",
+        "Quantity of data": 44494,
+        "R-squared": -462.2553702691654,
+        "Cross Validation Score Mean": -468.35323762750147,
+        "AIC": 42277.663201078496,
+        "BIC": 42747.63112096906,
+        "variables": [{
+            "Variable": "Intercept",
+            "Coefficient": 24.369147612007094,
+            "p_value": 3.2285137848550593e-37
+        }, {
+            "Variable": "oft_Type_inmueble[T.Apartamento]",
+            "Coefficient": 0.28147945833401655,
+            "p_value": 3.214160864459146e-22
+        }, {
+            "Variable": "oft_Type_inmueble[T.Bodega]",
+            "Coefficient": 0.9948951898819379,
+            "p_value": 4.084739769896687e-151
+        }, {
+            "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+            "Coefficient": 1.006890748578365,
+            "p_value": 0.009877682658591125
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa]",
+            "Coefficient": 0.6463978590439712,
+            "p_value": 4.600605447468134e-105
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa bodega]",
+            "Coefficient": 1.4014448115817393,
+            "p_value": 6.362036003721474e-10
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa campestre]",
+            "Coefficient": -1.2740061927977194e-12,
+            "p_value": 6.352708401450489e-16
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa comercial]",
+            "Coefficient": 7.320658482056535e-13,
+            "p_value": 2.9372540902673494e-06
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa lote]",
+            "Coefficient": 0.8769878664968355,
+            "p_value": 5.127178993129297e-89
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa residencial]",
+            "Coefficient": 0.11175226016624878,
+            "p_value": 0.6865052227460882
+        }, {
+            "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+            "Coefficient": 0.9330967345379956,
+            "p_value": 5.515517784438291e-194
+        }, {
+            "Variable": "oft_Type_inmueble[T.Consultorio]",
+            "Coefficient": -0.27887608957737925,
+            "p_value": 0.006066973872310461
+        }, {
+            "Variable": "oft_Type_inmueble[T.Deposito]",
+            "Coefficient": -1.741943615631773,
+            "p_value": 1.6942759829409667e-251
+        }, {
+            "Variable": "oft_Type_inmueble[T.Dotacional]",
+            "Coefficient": 1.3535674818347336,
+            "p_value": 1.8756160775350915e-14
+        }, {
+            "Variable": "oft_Type_inmueble[T.Edificio]",
+            "Coefficient": 0.5138624549154064,
+            "p_value": 1.6346705921749604e-24
+        }, {
+            "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+            "Coefficient": 0.8980070661313958,
+            "p_value": 0.0011734851732303814
+        }, {
+            "Variable": "oft_Type_inmueble[T.Garaje]",
+            "Coefficient": -1.7039594321760858,
+            "p_value": 2.570578036641501e-140
+        }, {
+            "Variable": "oft_Type_inmueble[T.Industria]",
+            "Coefficient": -6.276874777225683e-15,
+            "p_value": 3.7108739467168205e-09
+        }, {
+            "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+            "Coefficient": 0.9548209374295404,
+            "p_value": 1.0454629550469738e-45
+        }, {
+            "Variable": "oft_Type_inmueble[T.Institucional]",
+            "Coefficient": -9.156469589528338e-16,
+            "p_value": 0.11139946644825191
+        }, {
+            "Variable": "oft_Type_inmueble[T.Local]",
+            "Coefficient": -0.07795504342136632,
+            "p_value": 0.034567057381756396
+        }, {
+            "Variable": "oft_Type_inmueble[T.Lote]",
+            "Coefficient": 0.4488976322371769,
+            "p_value": 6.784833657133954e-39
+        }, {
+            "Variable": "oft_Type_inmueble[T.Oficina]",
+            "Coefficient": -0.008181078150411834,
+            "p_value": 0.8046819353685288
+        }, {
+            "Variable": "oft_Type_inmueble[T.Parqueadero]",
+            "Coefficient": -1.9615177403086417,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+            "Coefficient": -1.9502667356318403e-15,
+            "p_value": 2.504702332754863e-12
+        }, {
+            "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+            "Coefficient": -3.375958266051306e-16,
+            "p_value": 0.5060395855848026
+        }, {
+            "Variable": "loccodigo[T.2.0]",
+            "Coefficient": -0.03448492489653429,
+            "p_value": 0.0036099184493005457
+        }, {
+            "Variable": "loccodigo[T.3.0]",
+            "Coefficient": -0.08758298577783888,
+            "p_value": 3.669999315014429e-05
+        }, {
+            "Variable": "loccodigo[T.4.0]",
+            "Coefficient": -0.367642233792692,
+            "p_value": 4.4145568351307404e-113
+        }, {
+            "Variable": "loccodigo[T.5.0]",
+            "Coefficient": -0.0728050698040392,
+            "p_value": 0.0007622305891383381
+        }, {
+            "Variable": "loccodigo[T.6.0]",
+            "Coefficient": -0.08411028546293892,
+            "p_value": 0.00041823309972042084
+        }, {
+            "Variable": "loccodigo[T.7.0]",
+            "Coefficient": 0.14416190415481425,
+            "p_value": 2.6654039148295217e-08
+        }, {
+            "Variable": "loccodigo[T.8.0]",
+            "Coefficient": 0.009217083781689438,
+            "p_value": 0.6559308886575195
+        }, {
+            "Variable": "loccodigo[T.9.0]",
+            "Coefficient": 0.06534095455985464,
+            "p_value": 0.0013951405963948957
+        }, {
+            "Variable": "loccodigo[T.10.0]",
+            "Coefficient": 0.023547921299493336,
+            "p_value": 0.14950377758533437
+        }, {
+            "Variable": "loccodigo[T.11.0]",
+            "Coefficient": 0.022695986621082503,
+            "p_value": 0.009584037615251855
+        }, {
+            "Variable": "loccodigo[T.12.0]",
+            "Coefficient": 0.0481326992746474,
+            "p_value": 0.003091529311241258
+        }, {
+            "Variable": "loccodigo[T.13.0]",
+            "Coefficient": -0.020777058149310874,
+            "p_value": 0.22110421392221055
+        }, {
+            "Variable": "loccodigo[T.14.0]",
+            "Coefficient": -0.11947054182674423,
+            "p_value": 1.675036799890823e-05
+        }, {
+            "Variable": "loccodigo[T.15.0]",
+            "Coefficient": 0.047403832938369264,
+            "p_value": 0.054792404851030804
+        }, {
+            "Variable": "loccodigo[T.16.0]",
+            "Coefficient": -0.08042677118473127,
+            "p_value": 0.00031497618117346893
+        }, {
+            "Variable": "loccodigo[T.17.0]",
+            "Coefficient": -0.24855743426517662,
+            "p_value": 2.2571180359666222e-08
+        }, {
+            "Variable": "loccodigo[T.18.0]",
+            "Coefficient": -0.2951857730583431,
+            "p_value": 9.887406795390453e-51
+        }, {
+            "Variable": "loccodigo[T.19.0]",
+            "Coefficient": -0.14247981303708315,
+            "p_value": 3.7661394036043323e-10
+        }, {
+            "Variable": "estrato[T.2.0]",
+            "Coefficient": 0.2731526251705302,
+            "p_value": 1.7179202140265877e-87
+        }, {
+            "Variable": "estrato[T.3.0]",
+            "Coefficient": 0.5071128484871325,
+            "p_value": 1.985444751322788e-237
+        }, {
+            "Variable": "estrato[T.4.0]",
+            "Coefficient": 0.8258698497906821,
+            "p_value": 0.0
+        }, {
+            "Variable": "estrato[T.5.0]",
+            "Coefficient": 1.1040870794854862,
+            "p_value": 0.0
+        }, {
+            "Variable": "estrato[T.6.0]",
+            "Coefficient": 1.3110924229969718,
+            "p_value": 0.0
+        }, {
+            "Variable": "oft_Type_norma_juridica[T.PH]",
+            "Coefficient": -0.21395424655039427,
+            "p_value": 7.83803180486138e-220
+        }, {
+            "Variable": "oic_area_construccion",
+            "Coefficient": 0.001163866263120896,
+            "p_value": 0.0
+        }, {
+            "Variable": "oia_cant_garajes",
+            "Coefficient": 0.10133015176579431,
+            "p_value": 0.0
+        }, {
+            "Variable": "x",
+            "Coefficient": -5.77049690694016e-06,
+            "p_value": 0.00238092243222235
+        }, {
+            "Variable": "d_highway",
+            "Coefficient": -0.00014573350523458997,
+            "p_value": 2.433085159461553e-93
+        }, {
+            "Variable": "d_ssf",
+            "Coefficient": -2.2140517922615245e-05,
+            "p_value": 1.7629872336102458e-10
+        }, {
+            "Variable": "d_mus",
+            "Coefficient": -5.510083350362885e-05,
+            "p_value": 7.025271207244375e-101
+        }, {
+            "Variable": "d_tm",
+            "Coefficient": -4.988343933447176e-05,
+            "p_value": 3.6614619157410955e-59
+        }, {
+            "Variable": "d_p_tm",
+            "Coefficient": 3.162470451264172e-05,
+            "p_value": 1.5005536363985908e-45
+        }, {
+            "Variable": "d_ies",
+            "Coefficient": -6.78002735265408e-06,
+            "p_value": 0.01237674547267332
+        }, {
+            "Variable": "d_ips",
+            "Coefficient": -4.6609795052778686e-05,
+            "p_value": 4.512659849633367e-06
+        }]
+    }, {
+        "Type": "Estrato",
+        "data": [{
+            "Type": "Estrato",
+            "Estrato": 1,
+            "Quantity of data": 1012,
+            "R-squared": 0.6096948096957465,
+            "Cross Validation Score Mean": 0.5765912056023385,
+            "AIC": 1250.9615735463601,
+            "BIC": 1369.033985942698,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 17.5735098709603,
+                "p_value": 1.1894221297484766e-163
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 2.0255391672770715,
+                "p_value": 2.4788686075269284e-72
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 2.4561881354195076,
+                "p_value": 1.400695298106674e-66
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": -7.263654029328256e-12,
+                "p_value": 6.636725406862863e-157
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 2.097029706460886,
+                "p_value": 3.9062327102838834e-96
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": 4.329146897190639e-13,
+                "p_value": 1.616336887101652e-133
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": 2.558962297611121e-14,
+                "p_value": 1.0178885439506941e-160
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -1.153387643946084e-14,
+                "p_value": 8.254804336181822e-159
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 1.7408688286982397,
+                "p_value": 1.3066987730212115e-35
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": -2.5895385766207087e-16,
+                "p_value": 5.7641944158805835e-11
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 2.235060309687091,
+                "p_value": 6.340492427680366e-95
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -1.4790953586231643e-15,
+                "p_value": 1.6385069551637693e-45
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": 3.0311734055843567e-15,
+                "p_value": 7.873040186287888e-34
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": 3.2256540471205227e-15,
+                "p_value": 1.5290729275529456e-25
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 1.901376506394525e-15,
+                "p_value": 6.482244451810606e-35
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": -2.195645169925467e-15,
+                "p_value": 1.7884382477804714e-32
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -3.300035798385679e-16,
+                "p_value": 0.00026560063236774384
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": 4.834568472908946e-17,
+                "p_value": 0.5180258375375142
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 2.2101995296679426,
+                "p_value": 6.069385365397493e-08
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": -1.5512232078348918e-16,
+                "p_value": 0.1495278369645266
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 3.025001344468031,
+                "p_value": 3.659275404121745e-59
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 1.7836228493220276,
+                "p_value": 1.3223769411569514e-64
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 2.4174928527417814e-16,
+                "p_value": 7.828710383095936e-09
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": -0.23145480041532052,
+                "p_value": 0.4909668567569
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": -0.5568623244789377,
+                "p_value": 0.025953701440037964
+            }, {
+                "Variable": "loccodigo[T.4.0]",
+                "Coefficient": -0.20593876474571493,
+                "p_value": 0.3358290621409875
+            }, {
+                "Variable": "loccodigo[T.5.0]",
+                "Coefficient": -0.5301238629098071,
+                "p_value": 0.011130442150297534
+            }, {
+                "Variable": "loccodigo[T.7.0]",
+                "Coefficient": -0.36721158391541575,
+                "p_value": 0.08050585330053958
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": 0.03140460677444157,
+                "p_value": 0.9246255380980407
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": 0.05664726416729948,
+                "p_value": 0.8465045769296452
+            }, {
+                "Variable": "loccodigo[T.18.0]",
+                "Coefficient": -0.6206828434156524,
+                "p_value": 0.0046569322060071765
+            }, {
+                "Variable": "loccodigo[T.19.0]",
+                "Coefficient": -0.5154692937995917,
+                "p_value": 0.012417531088567059
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.29385480146182946,
+                "p_value": 1.8284083891984895e-17
+            }, {
+                "Variable": "suelo[T.6]",
+                "Coefficient": 0.3440089942653274,
+                "p_value": 1.7649580577311167e-06
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.0037819152388359444,
+                "p_value": 6.836594568071171e-55
+            }, {
+                "Variable": "d_bikeway",
+                "Coefficient": -0.00015342961660315245,
+                "p_value": 1.2779026964944293e-05
+            }, {
+                "Variable": "d_ssf",
+                "Coefficient": -5.0126922488739125e-05,
+                "p_value": 0.1397327931938557
+            }, {
+                "Variable": "d_lib",
+                "Coefficient": -5.0201397198842084e-05,
+                "p_value": 0.023095972786620837
+            }, {
+                "Variable": "z",
+                "Coefficient": -0.0003465899919242875,
+                "p_value": 0.09851060605130475
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 2,
+            "Quantity of data": 6345,
+            "R-squared": 0.5899144438363891,
+            "Cross Validation Score Mean": 0.5864738120069861,
+            "AIC": 6479.872372393926,
+            "BIC": 6777.110957120459,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 17.111362324555916,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 1.3987795558207374,
+                "p_value": 9.041656962739881e-211
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 1.9000757301869233,
+                "p_value": 2.124646450245365e-167
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": -6.279583921601031e-16,
+                "p_value": 0.0003374695309463237
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 1.592392042832104,
+                "p_value": 2.567154543176062e-277
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": -1.8030129029376516e-14,
+                "p_value": 3.5646730513036064e-247
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -4.320115997301442e-15,
+                "p_value": 8.087135539670591e-137
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -4.015385408725413e-15,
+                "p_value": 2.335803378934232e-190
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 1.214754279227098,
+                "p_value": 3.851364299871225e-78
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": -3.951704042852073e-15,
+                "p_value": 5.54127433901893e-112
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 1.8104062101067524,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": 1.2434810146919398e-15,
+                "p_value": 5.548065191178251e-09
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -0.09611610597613975,
+                "p_value": 0.34028176686238454
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": 1.0836496407307544e-14,
+                "p_value": 4.631415943001834e-224
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 2.1682949572348136,
+                "p_value": 2.715841021919873e-59
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 2.496026335813425,
+                "p_value": 9.069777217774329e-17
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -0.3461212782709806,
+                "p_value": 0.006521666814167583
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": 3.2884358914676156e-15,
+                "p_value": 8.739316604842132e-47
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 2.0236950128760878,
+                "p_value": 5.697355336307649e-20
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": -2.1321769449731784e-15,
+                "p_value": 4.745263661836015e-09
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 0.8165286030817648,
+                "p_value": 4.129711594226115e-35
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 1.0703219724349866,
+                "p_value": 1.3746984557059709e-77
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 1.2890362439027854,
+                "p_value": 2.0358403033337986e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -0.2267112347144493,
+                "p_value": 0.016248137120934106
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+                "Coefficient": -6.83685296477643e-16,
+                "p_value": 0.014928330559057188
+            }, {
+                "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+                "Coefficient": 3.8861361506115063e-16,
+                "p_value": 0.01245029559534591
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.2898074906679874,
+                "p_value": 0.47573760952238486
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": -0.520221710073748,
+                "p_value": 1.0971047980585133e-13
+            }, {
+                "Variable": "loccodigo[T.4.0]",
+                "Coefficient": -0.4855375563824082,
+                "p_value": 1.378895276429131e-16
+            }, {
+                "Variable": "loccodigo[T.5.0]",
+                "Coefficient": -0.5279769927463003,
+                "p_value": 2.5678787371712593e-19
+            }, {
+                "Variable": "loccodigo[T.6.0]",
+                "Coefficient": -0.37283003742405363,
+                "p_value": 1.9199360444703897e-09
+            }, {
+                "Variable": "loccodigo[T.7.0]",
+                "Coefficient": -0.4209325104613567,
+                "p_value": 1.783469129997677e-13
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": -0.309992559136642,
+                "p_value": 5.75420449630063e-08
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": -0.30309377814424365,
+                "p_value": 1.3891789585557647e-06
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": -0.14734218004736765,
+                "p_value": 0.013449121997595934
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.2767955572507086,
+                "p_value": 1.4023252406846432e-06
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": -9.593064424875824e-16,
+                "p_value": 1.0493194982800761e-35
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": -6.961422594017606e-16,
+                "p_value": 1.876222573188731e-18
+            }, {
+                "Variable": "loccodigo[T.14.0]",
+                "Coefficient": -0.13938317320594307,
+                "p_value": 0.36814619247724334
+            }, {
+                "Variable": "loccodigo[T.15.0]",
+                "Coefficient": 0.4379527497441311,
+                "p_value": 0.011805447267304087
+            }, {
+                "Variable": "loccodigo[T.16.0]",
+                "Coefficient": -1.1138715344336648e-16,
+                "p_value": 0.058405953825877675
+            }, {
+                "Variable": "loccodigo[T.17.0]",
+                "Coefficient": -0.3472506597153658,
+                "p_value": 0.0002231310112319556
+            }, {
+                "Variable": "loccodigo[T.18.0]",
+                "Coefficient": -0.4700162752920996,
+                "p_value": 1.9035434959976645e-14
+            }, {
+                "Variable": "loccodigo[T.19.0]",
+                "Coefficient": -0.4056150518461588,
+                "p_value": 5.269068450013545e-12
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.2399515667109821,
+                "p_value": 1.8014391224040423e-61
+            }, {
+                "Variable": "topografia[T.2]",
+                "Coefficient": -0.1767747721973732,
+                "p_value": 2.3339359125503145e-15
+            }, {
+                "Variable": "topografia[T.3]",
+                "Coefficient": -0.1884687418412773,
+                "p_value": 4.846588194812807e-10
+            }, {
+                "Variable": "serpub_Type[T.1]",
+                "Coefficient": 0.29367146780987846,
+                "p_value": 0.24796296229236844
+            }, {
+                "Variable": "serpub_Type[T.2]",
+                "Coefficient": 0.17587184506507608,
+                "p_value": 0.41267670292459546
+            }, {
+                "Variable": "serpub_Type[T.4]",
+                "Coefficient": 0.11767893992979545,
+                "p_value": 0.4998803195184156
+            }, {
+                "Variable": "serpub_Type[T.5]",
+                "Coefficient": 0.3982066137495109,
+                "p_value": 0.009726889816384619
+            }, {
+                "Variable": "actividad_economica_Type[T.1]",
+                "Coefficient": 0.29910825752348835,
+                "p_value": 0.0020048754409742416
+            }, {
+                "Variable": "actividad_economica_Type[T.2]",
+                "Coefficient": 0.5257487087462588,
+                "p_value": 8.684845828413194e-08
+            }, {
+                "Variable": "actividad_economica_Type[T.3]",
+                "Coefficient": 0.318191469879066,
+                "p_value": 0.009130441490077714
+            }, {
+                "Variable": "actividad_economica_Type[T.4]",
+                "Coefficient": 0.04285559345228414,
+                "p_value": 0.9224046526888496
+            }, {
+                "Variable": "actividad_economica_Type[T.5]",
+                "Coefficient": 0.3253082950697748,
+                "p_value": 0.0886341752792538
+            }, {
+                "Variable": "cp_terr_ar[T.P]",
+                "Coefficient": -0.15248027926342453,
+                "p_value": 2.807226637423275e-24
+            }, {
+                "Variable": "oic_area_terreno",
+                "Coefficient": 0.0036714555175479968,
+                "p_value": 3.4483713254140027e-221
+            }, {
+                "Variable": "d_park",
+                "Coefficient": 0.0002120376720882569,
+                "p_value": 0.0034569477598315242
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 3,
+            "Quantity of data": 11180,
+            "R-squared": 0.6844725835637138,
+            "Cross Validation Score Mean": 0.6943200902831099,
+            "AIC": 8068.718853119102,
+            "BIC": 8376.237886480883,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 18.906641522104497,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.23680138974224163,
+                "p_value": 0.0030802888590631193
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 0.815164949544126,
+                "p_value": 4.26669003051122e-21
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": 1.3425912761392567e-13,
+                "p_value": 1.5041751825611203e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.5631641642255001,
+                "p_value": 2.767623341020371e-12
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": -2.992923569340611e-14,
+                "p_value": 6.416744860922446e-07
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -2.3172949095280744e-15,
+                "p_value": 6.776391560179208e-05
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": 1.4247047704109322e-16,
+                "p_value": 0.3195646898497923
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 0.610056545984739,
+                "p_value": 3.2107054766522816e-10
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": 1.6295704643879347e-16,
+                "p_value": 0.4072395809715691
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 0.7083810962452273,
+                "p_value": 7.22376130887868e-18
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": 3.71133844143758e-17,
+                "p_value": 0.9430577813087948
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -0.840678254114533,
+                "p_value": 4.7282243558019664e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": 0.41750653738885724,
+                "p_value": 0.2411870592536205
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 1.0236678665130499,
+                "p_value": 4.770886136773367e-23
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 0.4935858490322357,
+                "p_value": 0.165692652889296
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.7298569991008548,
+                "p_value": 3.5228585692998187e-39
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": -1.402162355704367e-15,
+                "p_value": 6.340303456668532e-09
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 0.840589177890415,
+                "p_value": 3.320575529483838e-12
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": 5.878031451063556e-16,
+                "p_value": 0.007860160212083842
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": -0.07601494382015928,
+                "p_value": 0.37429883222596194
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 0.7715400267602261,
+                "p_value": 3.9740320863037037e-19
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 0.11694295820577238,
+                "p_value": 0.18418907342890226
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.9337677061157028,
+                "p_value": 5.236709067963888e-94
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+                "Coefficient": 5.640799077152284e-16,
+                "p_value": 0.0016685913318681218
+            }, {
+                "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+                "Coefficient": -4.19866018926762e-16,
+                "p_value": 1.0682758455155725e-11
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.22624040609555118,
+                "p_value": 6.701489438877857e-08
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": 0.0855473130710156,
+                "p_value": 0.04482786778000837
+            }, {
+                "Variable": "loccodigo[T.4.0]",
+                "Coefficient": -0.262009673164623,
+                "p_value": 2.919660855182684e-14
+            }, {
+                "Variable": "loccodigo[T.5.0]",
+                "Coefficient": -4.3904180175822157e-16,
+                "p_value": 4.849451708062165e-10
+            }, {
+                "Variable": "loccodigo[T.6.0]",
+                "Coefficient": -0.054088648845032394,
+                "p_value": 0.18490507738362813
+            }, {
+                "Variable": "loccodigo[T.7.0]",
+                "Coefficient": 0.0767878202599519,
+                "p_value": 0.13555023740334005
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": 0.1390611889421739,
+                "p_value": 1.4727893148626885e-06
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": 0.04450833333377651,
+                "p_value": 0.05981836321750035
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": 0.04672578898213886,
+                "p_value": 0.04511284775224321
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": 0.12947779047868282,
+                "p_value": 1.7674737557335442e-09
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": 0.13387598215030697,
+                "p_value": 0.00015731041332451803
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": 0.17418439683172982,
+                "p_value": 8.30001093084799e-06
+            }, {
+                "Variable": "loccodigo[T.14.0]",
+                "Coefficient": -0.03468247143833489,
+                "p_value": 0.36383589653277193
+            }, {
+                "Variable": "loccodigo[T.15.0]",
+                "Coefficient": 0.048391578739557906,
+                "p_value": 0.18788650233836707
+            }, {
+                "Variable": "loccodigo[T.16.0]",
+                "Coefficient": 0.034821789122958274,
+                "p_value": 0.2596957975708465
+            }, {
+                "Variable": "loccodigo[T.17.0]",
+                "Coefficient": 0.18658330845452165,
+                "p_value": 0.01358313671390971
+            }, {
+                "Variable": "loccodigo[T.18.0]",
+                "Coefficient": -0.1839266731330691,
+                "p_value": 3.1446017569375077e-07
+            }, {
+                "Variable": "loccodigo[T.19.0]",
+                "Coefficient": 0.058451506028932274,
+                "p_value": 0.1289616287385321
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": -0.06798437736907839,
+                "p_value": 3.102264097385289e-10
+            }, {
+                "Variable": "suelo[T.6]",
+                "Coefficient": 0.03058243875923372,
+                "p_value": 0.7022627677089346
+            }, {
+                "Variable": "topografia[T.2]",
+                "Coefficient": -0.13400086786890666,
+                "p_value": 3.6944368203671696e-09
+            }, {
+                "Variable": "topografia[T.3]",
+                "Coefficient": -0.2556113713591174,
+                "p_value": 1.510450315099178e-07
+            }, {
+                "Variable": "oic_area_terreno",
+                "Coefficient": 0.0016660727269114605,
+                "p_value": 2.232692723144244e-105
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.0017013123151292833,
+                "p_value": 1.8682653950093876e-257
+            }, {
+                "Variable": "d_park",
+                "Coefficient": -1.9553103528352402e-05,
+                "p_value": 0.6957264567845429
+            }, {
+                "Variable": "d_mus",
+                "Coefficient": -6.912156968602672e-05,
+                "p_value": 4.4943277655420603e-67
+            }, {
+                "Variable": "d_gy",
+                "Coefficient": -1.2263102881244716e-05,
+                "p_value": 8.878351045204749e-05
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 4,
+            "Quantity of data": 8022,
+            "R-squared": 0.5832695125742658,
+            "Cross Validation Score Mean": 0.6907663937684551,
+            "AIC": 3686.747199638112,
+            "BIC": 3882.4656049353516,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 18.987997410913916,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.18510706569819615,
+                "p_value": 8.825629065230119e-07
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": 0.6609874433169122,
+                "p_value": 0.0024766669431554042
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": 1.7426028216547987e-15,
+                "p_value": 4.835167146267911e-07
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.1868595070082061,
+                "p_value": 4.133378774021332e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": 1.445083943974655e-15,
+                "p_value": 1.1463744449225563e-13
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": 4.033686096414373e-15,
+                "p_value": 8.217798044083705e-09
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -3.1450592670808166e-17,
+                "p_value": 0.8988301211042857
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 0.3131176531343589,
+                "p_value": 0.30888757340811807
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": -5.975097562063444e-16,
+                "p_value": 0.006232703335062471
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": 0.2552998778290488,
+                "p_value": 0.0018030335577258897
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -0.6658086503901797,
+                "p_value": 0.0023027157564231493
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -3.028699214371245,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": -1.4785400199847298e-15,
+                "p_value": 1.809135956487651e-11
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": 0.5509536299727299,
+                "p_value": 5.318669279720884e-06
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": -7.150011521410146e-16,
+                "p_value": 6.057379033378587e-08
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.8814775730677118,
+                "p_value": 2.2902793968687647e-66
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": 3.167218997699399e-16,
+                "p_value": 0.028226306561272087
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 0.18852681096771856,
+                "p_value": 0.3900169645775634
+            }, {
+                "Variable": "oft_Type_inmueble[T.Institucional]",
+                "Coefficient": -1.0942583952863865e-15,
+                "p_value": 3.793455963322893e-48
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 0.12263267190130703,
+                "p_value": 0.048112315632271176
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": 1.6855287609913367,
+                "p_value": 2.3608844802270297e-37
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 0.09728942253054695,
+                "p_value": 0.04166182614885819
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.9504282280353642,
+                "p_value": 1.0218546387751067e-232
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero - lava autos]",
+                "Coefficient": -2.0620169066620454e-16,
+                "p_value": 3.428276319602171e-25
+            }, {
+                "Variable": "oft_Type_inmueble[T.Residencias-hotel]",
+                "Coefficient": 6.681576124763194e-17,
+                "p_value": 1.4571634375240843e-06
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.11948587022504967,
+                "p_value": 9.492579521340088e-17
+            }, {
+                "Variable": "loccodigo[T.3.0]",
+                "Coefficient": 0.3059525273085863,
+                "p_value": 1.025951159591341e-25
+            }, {
+                "Variable": "loccodigo[T.8.0]",
+                "Coefficient": 0.03387965540379341,
+                "p_value": 0.12079228777626035
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": 0.08120285218059356,
+                "p_value": 7.939218562421181e-13
+            }, {
+                "Variable": "loccodigo[T.10.0]",
+                "Coefficient": 0.013629455799674346,
+                "p_value": 0.4580272679901506
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": 0.010192277983068232,
+                "p_value": 0.2753811235525781
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": 0.1549754518996035,
+                "p_value": 6.061558936644752e-19
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": 0.14627072304970298,
+                "p_value": 7.664781104300962e-35
+            }, {
+                "Variable": "loccodigo[T.14.0]",
+                "Coefficient": 0.14254661603071148,
+                "p_value": 0.08034376221074256
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": 0.10511708552493043,
+                "p_value": 4.290834519977402e-08
+            }, {
+                "Variable": "suelo[T.6]",
+                "Coefficient": -0.2566909186350933,
+                "p_value": 0.011575070457348662
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.005183888217894572,
+                "p_value": 0.0
+            }, {
+                "Variable": "oia_cant_garajes",
+                "Coefficient": 0.1604435338416088,
+                "p_value": 3.329022628243878e-224
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 5,
+            "Quantity of data": 3837,
+            "R-squared": 0.46610245124382566,
+            "Cross Validation Score Mean": 0.3501409126756616,
+            "AIC": 2075.0662851772095,
+            "BIC": 2200.1152069821483,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 19.022045574619074,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.28934069417578767,
+                "p_value": 2.0331410969040283e-07
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": -3.683513585001373e-14,
+                "p_value": 5.54090205606295e-16
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": -8.796233595181799e-14,
+                "p_value": 7.382064796355603e-15
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.43420502978925984,
+                "p_value": 7.417074830004748e-13
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": 2.0084550747271044e-14,
+                "p_value": 1.9860399663004856e-12
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": -5.4962015214761194e-14,
+                "p_value": 7.185787029639775e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -9.049743746561346e-14,
+                "p_value": 2.0383868694276696e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": 5.305721292798746e-14,
+                "p_value": 1.45770414346391e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": 2.0219879024742954e-14,
+                "p_value": 3.405755621019187e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": -1.358286162903834e-15,
+                "p_value": 2.061326820284494e-18
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -0.017833921751500052,
+                "p_value": 0.906761808801537
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": 4.214771683713577e-16,
+                "p_value": 1.0126415709659758e-35
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": -9.065544945872999e-15,
+                "p_value": 3.008997501868426e-15
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": -0.049642846773702023,
+                "p_value": 0.6339548720624719
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio comercial]",
+                "Coefficient": 2.1167840076564853e-15,
+                "p_value": 1.4530224159870658e-14
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -0.9253615620053465,
+                "p_value": 0.003983363165304201
+            }, {
+                "Variable": "oft_Type_inmueble[T.Industria]",
+                "Coefficient": 8.948956993970456e-16,
+                "p_value": 1.6767338784362152e-10
+            }, {
+                "Variable": "oft_Type_inmueble[T.Inmueble comercial]",
+                "Coefficient": 1.028285575078664e-15,
+                "p_value": 2.592351565731586e-23
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": -0.28504162099710406,
+                "p_value": 0.013226367076277248
+            }, {
+                "Variable": "oft_Type_inmueble[T.Lote]",
+                "Coefficient": -0.7709777248070956,
+                "p_value": 0.0008668210794278001
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 0.0610912602565239,
+                "p_value": 0.3200085554301159
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.7131983473463066,
+                "p_value": 4.281165922992802e-49
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.11011283877473578,
+                "p_value": 1.1491174743445032e-07
+            }, {
+                "Variable": "loccodigo[T.9.0]",
+                "Coefficient": 0.3283573147230207,
+                "p_value": 8.137195825121548e-14
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.1268744038143942,
+                "p_value": 3.7470648130304744e-28
+            }, {
+                "Variable": "loccodigo[T.12.0]",
+                "Coefficient": -0.09633497355248347,
+                "p_value": 0.09978606666980513
+            }, {
+                "Variable": "loccodigo[T.13.0]",
+                "Coefficient": 0.12544913744017577,
+                "p_value": 2.401537354567773e-05
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": 0.18416324277352114,
+                "p_value": 5.044528726345209e-07
+            }, {
+                "Variable": "topografia[T.2]",
+                "Coefficient": 0.16525630844527225,
+                "p_value": 5.84757662745317e-07
+            }, {
+                "Variable": "topografia[T.3]",
+                "Coefficient": 0.10975826786874852,
+                "p_value": 0.153286267436107
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.003308919509156414,
+                "p_value": 1.9676533379344206e-196
+            }, {
+                "Variable": "oia_cant_garajes",
+                "Coefficient": 0.13259156955217316,
+                "p_value": 8.659631983710605e-85
+            }]
+        }, {
+            "Type": "Estrato",
+            "Estrato": 6,
+            "Quantity of data": 2975,
+            "R-squared": 0.5527215552291556,
+            "Cross Validation Score Mean": 0.5928839783352474,
+            "AIC": 679.2451231623954,
+            "BIC": 769.2151129320914,
+            "variables": [{
+                "Variable": "Intercept",
+                "Coefficient": 18.463725342009926,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Apartamento]",
+                "Coefficient": 0.12002955809528129,
+                "p_value": 0.006446313058753423
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega]",
+                "Coefficient": -2.8022607229994047e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Bodega comercial]",
+                "Coefficient": 4.741481807329845e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa]",
+                "Coefficient": 0.06172105994341093,
+                "p_value": 0.3248291824983841
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa bodega]",
+                "Coefficient": 5.8875668979628465e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa campestre]",
+                "Coefficient": 6.0497723570696224e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa comercial]",
+                "Coefficient": -2.6947570377599026e-15,
+                "p_value": 0.0
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa lote]",
+                "Coefficient": -1.487962525700201e-15,
+                "p_value": 1.9818761289162649e-205
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa residencial]",
+                "Coefficient": -5.600725276037286e-16,
+                "p_value": 5.435727490187846e-22
+            }, {
+                "Variable": "oft_Type_inmueble[T.Casa uso mixto]",
+                "Coefficient": -1.4366729946205309e-15,
+                "p_value": 6.276775139631823e-122
+            }, {
+                "Variable": "oft_Type_inmueble[T.Consultorio]",
+                "Coefficient": -0.29694079764484643,
+                "p_value": 0.06722681002053199
+            }, {
+                "Variable": "oft_Type_inmueble[T.Deposito]",
+                "Coefficient": -1.488618599544967,
+                "p_value": 3.495117987891758e-25
+            }, {
+                "Variable": "oft_Type_inmueble[T.Dotacional]",
+                "Coefficient": 3.2535231821177665e-16,
+                "p_value": 4.4073486194895343e-17
+            }, {
+                "Variable": "oft_Type_inmueble[T.Edificio]",
+                "Coefficient": -0.2032313606212163,
+                "p_value": 0.05603534064428566
+            }, {
+                "Variable": "oft_Type_inmueble[T.Garaje]",
+                "Coefficient": -1.4433907442689835,
+                "p_value": 9.820891530162632e-24
+            }, {
+                "Variable": "oft_Type_inmueble[T.Local]",
+                "Coefficient": 0.20376432782717488,
+                "p_value": 0.05321461151907826
+            }, {
+                "Variable": "oft_Type_inmueble[T.Oficina]",
+                "Coefficient": 0.006734193907859008,
+                "p_value": 0.8937974485483504
+            }, {
+                "Variable": "oft_Type_inmueble[T.Parqueadero]",
+                "Coefficient": -1.9241752758845354,
+                "p_value": 1.9252258544918528e-83
+            }, {
+                "Variable": "loccodigo[T.2.0]",
+                "Coefficient": 0.1419754254439344,
+                "p_value": 2.410725814713627e-36
+            }, {
+                "Variable": "loccodigo[T.11.0]",
+                "Coefficient": -0.12824676812192803,
+                "p_value": 4.910733219390315e-07
+            }, {
+                "Variable": "oft_Type_norma_juridica[T.PH]",
+                "Coefficient": 0.8442951205333867,
+                "p_value": 1.1399666465988699e-11
+            }, {
+                "Variable": "oic_area_construccion",
+                "Coefficient": 0.005885170069976624,
+                "p_value": 0.0
+            }, {
+                "Variable": "oia_cant_garajes",
+                "Coefficient": 0.07369720357762968,
+                "p_value": 2.637182044261536e-29
+            }]
+        }]
+    }]
+},{
+    "model_id": 3,
+    "name": "Random Forest",
+    "Description": "Random Forest with maximum quantity of registers",
+    "data": [{
+        "Score in all the data": 0.5201826728548596,
+        "Score in test": -0.14450250554632493,
+        "Score in training": 0.7195328276297879,
+        "Cross Validation Score Mean":-1.8,
+        "Quantity of data": 78989,
+        "Type": "General",
+        "variables": [{"Importance": 0.2943122436139447,
+        "Variable": "oic_area_terreno"},
+        {"Importance": 0.18722388365384862, "Variable": "oic_area_construccion"},
+        {"Importance": 0.09498267468375579, "Variable": "oia_cant_garajes"},
+        {"Importance": 0.04850765056598754, "Variable": "locnombre_USAQUEN"},
+        {"Importance": 0.03985490650399166, "Variable": "d_sitp"},
+        {"Importance": 0.02919582302328592, "Variable": "z"},
+        {"Importance": 0.01940058548092844, "Variable": "d_p_tm"},
+        {"Importance": 0.017564005277135527, "Variable": "d_highway"},
+        {"Importance": 0.016525627859130768, "Variable": "d_ies"},
+        {"Importance": 0.0154487963028209, "Variable": "dm_sitp"},
+        {"Importance": 0.01457941845175651, "Variable": "x"},
+        {"Importance": 0.01444142093562059, "Variable": "d_tm"},
+        {"Importance": 0.014347333088381367, "Variable": "d_lib"},
+        {"Importance": 0.013683171072459662, "Variable": "dm_col"},
+        {"Importance": 0.013431772119712228, "Variable": "d_col"},
+        {"Importance": 0.01309374445945318, "Variable": "d_bikeway"},
+        {"Importance": 0.012760044976905473, "Variable": "actividad_economica_23"},
+        {"Importance": 0.012415239577771275, "Variable": "dm_ssf"},
+        {"Importance": 0.012360570742916173, "Variable": "tratamiento_urb_22"},
+        {"Importance": 0.011157068797032696, "Variable": "dm_bom"},
+        {"Importance": 0.010238512913864807, "Variable": "d_gy"},
+        {"Importance": 0.009842142260242073, "Variable": "via_521"},
+        {"Importance": 0.008502527374751908, "Variable": "d_park"},
+        {"Importance": 0.008379453783528983, "Variable": "locnombre_KENNEDY"},
+        {"Importance": 0.008346947947567076, "Variable": "dm_bikeway"},
+        {"Importance": 0.008253940176116765, "Variable": "dm_highway"},
+        {"Importance": 0.006613592498370876, "Variable": "dm_ips"},
+        {"Importance": 0.006363715659088869, "Variable": "actividad_22"},
+        {"Importance": 0.005571893386789254, "Variable": "tratamiento_urb_52"},
+        {"Importance": 0.005426239685782713, "Variable": "dm_lib"},
+        {"Importance": 0.00449785898730461, "Variable": "dm_p_tm"},
+        {"Importance": 0.0033203521223932947, "Variable": "dm_ies"},
+        {"Importance": 0.002537359303306119, "Variable": "loccodigo_11.0"},
+        {"Importance": 0.002332240187420819, "Variable": "dm_tm"},
+        {"Importance": 0.001617273628125735, "Variable": "d_bom"},
+        {"Importance": 0.0016135203105975516, "Variable": "estrato_1.0"},
+        {"Importance": 0.0015394045461736329, "Variable": "tratamiento_urb_23"},
+        {"Importance": 0.0015241874540363584, "Variable": "tipo_segun_actividad_3"},
+        {"Importance": 0.0012307521631231587, "Variable": "y"},
+        {"Importance": 0.0010156227286182871, "Variable": "d_ssf"},
+        {"Importance": 0.0008854935436069511,
+        "Variable": "oft_tipo_norma_juridica_PH"},
+        {"Importance": 0.0005505674400973309, "Variable": "d_ips"},
+        {"Importance": 0.00044131923159348383, "Variable": "topografia_2"},
+        {"Importance": 0.0003725121364923501, "Variable": "actividad_46"},
+        {"Importance": 0.00035796545699614564, "Variable": "actividad_economica_41"},
+        {"Importance": 0.00030087310814276775, "Variable": "dm_mus"},
+        {"Importance": 0.0002830998244554488, "Variable": "estrato_5.0"},
+        {"Importance": 0.0002596527113637756, "Variable": "d_mus"},
+        {"Importance": 0.0002512117285591392, "Variable": "influencia_via_3"},
+        {"Importance": 0.0002311107189470578, "Variable": "tipo_segun_actividad_6"},
+        {"Importance": 0.00021242096200130045, "Variable": "influencia_via_4"},
+        {"Importance": 0.00016849267851918706, "Variable": "dm_gy"},
+        {"Importance": 0.0001398736506581725, "Variable": "via_534"},
+        {"Importance": 0.00013731913343611492,
+        "Variable": "oft_tipo_inmueble_Edificio"},
+        {"Importance": 0.0001361890234718112, "Variable": "oft_tipo_inmueble_Lote"},
+        {"Importance": 9.27285636575756e-05, "Variable": "actividad_economica_16"},
+        {"Importance": 9.097514200203555e-05, "Variable": "cp_terr_ar_N"},
+        {"Importance": 7.354786476745852e-05,
+        "Variable": "oft_tipo_inmueble_Apartamento"},
+        {"Importance": 6.992497796876855e-05,
+        "Variable": "oft_tipo_norma_juridica_NPH"},
+        {"Importance": 5.7123033110678555e-05, "Variable": "dm_park"},
+        {"Importance": 5.573879138526528e-05, "Variable": "loccodigo_2.0"},
+        {"Importance": 5.408695019122043e-05, "Variable": "actividad_economica_13"},
+        {"Importance": 4.922967331261052e-05,
+        "Variable": "actividad_economica_tipo_1"},
+        {"Importance": 4.3560584731933754e-05, "Variable": "estrato_6.0"},
+        {"Importance": 3.8920965454732924e-05, "Variable": "estrato_2.0"},
+        {"Importance": 3.600832586327998e-05, "Variable": "serpub_especif_2"},
+        {"Importance": 3.1283977199202645e-05, "Variable": "oft_tipo_inmueble_Casa"},
+        {"Importance": 2.7660488806793286e-05, "Variable": "actividad_23"},
+        {"Importance": 2.6587139094183157e-05,
+        "Variable": "oft_tipo_inmueble_Oficina"},
+        {"Importance": 2.6400976506340454e-05, "Variable": "actividad_21"},
+        {"Importance": 2.436960796749911e-05,
+        "Variable": "actividad_economica_tipo_2"},
+        {"Importance": 2.4196061521737764e-05, "Variable": "locnombre_CHAPINERO"},
+        {"Importance": 2.0357622702719627e-05, "Variable": "actividad_economica_15"},
+        {"Importance": 2.0160699742905065e-05, "Variable": "serpub_especif_1"},
+        {"Importance": 1.8484147606448516e-05,
+        "Variable": "oft_tipo_inmueble_Bodega"},
+        {"Importance": 1.777892661995423e-05, "Variable": "actividad_economica_12"},
+        {"Importance": 1.5517225684122748e-05, "Variable": "estrato_3.0"},
+        {"Importance": 1.3842547271598247e-05, "Variable": "estado_via_2"},
+        {"Importance": 1.1254735372104616e-05, "Variable": "cp_terr_ar_P"},
+        {"Importance": 1.0630764026025975e-05,
+        "Variable": "oft_tipo_inmueble_Local"},
+        {"Importance": 9.730583099805572e-06, "Variable": "loccodigo_1.0"},
+        {"Importance": 9.499295453956595e-06, "Variable": "actividad_71"},
+        {"Importance": 9.356745608693713e-06, "Variable": "via_531"},
+        {"Importance": 9.129598199044224e-06, "Variable": "tipo_segun_actividad_2"},
+        {"Importance": 9.128193033959995e-06, "Variable": "actividad_41"},
+        {"Importance": 8.389427354782566e-06, "Variable": "actividad_economica_14"},
+        {"Importance": 8.237123756522289e-06, "Variable": "loccodigo_13.0"},
+        {"Importance": 8.078762074572668e-06, "Variable": "tipo_segun_actividad_5"},
+        {"Importance": 7.98318443694015e-06, "Variable": "estrato_4.0"},
+        {"Importance": 7.828650491928425e-06, "Variable": "actividad_economica_17"},
+        {"Importance": 7.6126410426820735e-06, "Variable": "via_523"},
+        {"Importance": 6.201775626868166e-06, "Variable": "topografia_1"},
+        {"Importance": 6.126855451956845e-06,
+        "Variable": "actividad_economica_tipo_4"},
+        {"Importance": 5.9877931533863e-06, "Variable": "actividad_economica_21"},
+        {"Importance": 5.946113690594655e-06, "Variable": "tratamiento_urb_21"},
+        {"Importance": 5.463870585099394e-06, "Variable": "tratamiento_urb_73"},
+        {"Importance": 5.4092634575070855e-06, "Variable": "locnombre_BOSA"},
+        {"Importance": 5.232886802614496e-06, "Variable": "tratamiento_urb_11"},
+        {"Importance": 5.150987169001032e-06, "Variable": "serpub_tipo_5"},
+        {"Importance": 4.7445643150864055e-06, "Variable": "actividad_economica_22"},
+        {"Importance": 4.710339534548364e-06, "Variable": "tipo_segun_actividad_4"},
+        {"Importance": 4.526791159333626e-06, "Variable": "tratamiento_urb_51"},
+        {"Importance": 4.372654678644516e-06,
+        "Variable": "oft_tipo_inmueble_Casa uso mixto"},
+        {"Importance": 4.3377332865829525e-06, "Variable": "clase_via_5"},
+        {"Importance": 3.7414054569934445e-06, "Variable": "serpub_21"},
+        {"Importance": 3.7323205005762052e-06, "Variable": "via_411"},
+        {"Importance": 3.473815669432425e-06, "Variable": "loccodigo_9.0"},
+        {"Importance": 3.3674798762224328e-06, "Variable": "estado_via_4"},
+        {"Importance": 3.317478557858733e-06, "Variable": "estado_via_3"},
+        {"Importance": 3.2090505083774226e-06, "Variable": "suelo_5"},
+        {"Importance": 3.1720453566272775e-06, "Variable": "actividad_45"},
+        {"Importance": 3.153001109544983e-06, "Variable": "tipo_segun_actividad_1"},
+        {"Importance": 3.0473486807313537e-06, "Variable": "locnombre_SUBA"},
+        {"Importance": 2.7467438195940066e-06, "Variable": "actividad_economica_45"},
+        {"Importance": 2.685560066260391e-06,
+        "Variable": "oft_tipo_inmueble_Parqueadero"},
+        {"Importance": 2.6744010355142386e-06,
+        "Variable": "oft_tipo_inmueble_Inmueble comercial"},
+        {"Importance": 2.6659558102984016e-06, "Variable": "influencia_via_2"},
+        {"Importance": 2.530893220810218e-06, "Variable": "serpub_42"},
+        {"Importance": 2.4747856200963885e-06, "Variable": "locnombre_TEUSAQUILLO"},
+        {"Importance": 2.3784181562992383e-06, "Variable": "tratamiento_urb_45"},
+        {"Importance": 2.317060412965393e-06,
+        "Variable": "oft_tipo_inmueble_Deposito"},
+        {"Importance": 2.31539374735833e-06,
+        "Variable": "oft_tipo_inmueble_Dotacional"},
+        {"Importance": 2.2690060943409025e-06, "Variable": "loccodigo_14.0"},
+        {"Importance": 2.17980503966855e-06, "Variable": "via_533"},
+        {"Importance": 2.0041033479341448e-06, "Variable": "via_544"},
+        {"Importance": 1.942108214899438e-06, "Variable": "locnombre_LOS MARTIRES"},
+        {"Importance": 1.9283983916666863e-06, "Variable": "loccodigo_8.0"},
+        {"Importance": 1.9054900966298614e-06, "Variable": "via_524"},
+        {"Importance": 1.7113941816604002e-06, "Variable": "influencia_via_1"},
+        {"Importance": 1.6736812097016578e-06, "Variable": "loccodigo_10.0"},
+        {"Importance": 1.4675605422852802e-06, "Variable": "actividad_economica_33"},
+        {"Importance": 1.4546833133691195e-06,
+        "Variable": "oft_tipo_inmueble_Casa lote"},
+        {"Importance": 1.3730623078737954e-06, "Variable": "loccodigo_4.0"},
+        {"Importance": 1.3632187995204582e-06, "Variable": "actividad_61"},
+        {"Importance": 1.2417574074720168e-06, "Variable": "topografia_3"},
+        {"Importance": 1.212899226732146e-06, "Variable": "tipo_segun_actividad_7"},
+        {"Importance": 1.19865208236501e-06, "Variable": "actividad_51"},
+        {"Importance": 1.1966451722875752e-06, "Variable": "via_522"},
+        {"Importance": 1.183075363260765e-06, "Variable": "loccodigo_16.0"},
+        {"Importance": 1.1710188417255097e-06, "Variable": "locnombre_ENGATIVA"},
+        {"Importance": 1.1576370226608659e-06, "Variable": "tratamiento_urb_24"},
+        {"Importance": 1.14049064083282e-06, "Variable": "actividad_62"},
+        {"Importance": 1.1041197407118407e-06, "Variable": "serpub_51"},
+        {"Importance": 1.0216118989465649e-06, "Variable": "via_532"},
+        {"Importance": 9.273795661885933e-07,
+        "Variable": "locnombre_BARRIOS UNIDOS"},
+        {"Importance": 8.80038681784844e-07, "Variable": "estado_via_1"},
+        {"Importance": 8.259632033447176e-07, "Variable": "actividad_economica_2"},
+        {"Importance": 7.173240359956083e-07, "Variable": "serpub_especif_3"},
+        {"Importance": 7.117169962578704e-07, "Variable": "locnombre_FONTIBON"},
+        {"Importance": 6.935948072485864e-07, "Variable": "tratamiento_urb_41"},
+        {"Importance": 6.930950687870657e-07, "Variable": "tratamiento_urb_32"},
+        {"Importance": 5.983254650989836e-07, "Variable": "actividad_3"},
+        {"Importance": 5.84449108391101e-07, "Variable": "locnombre_SAN CRISTOBAL"},
+        {"Importance": 5.292043443627008e-07, "Variable": "actividad_economica_32"},
+        {"Importance": 5.290921893338322e-07, "Variable": "locnombre_PUENTE ARANDA"},
+        {"Importance": 5.124780805863534e-07, "Variable": "loccodigo_5.0"},
+        {"Importance": 5.0897955726665e-07, "Variable": "clase_via_4"},
+        {"Importance": 5.081937089185676e-07,
+        "Variable": "locnombre_ANTONIO NARIÑO"},
+        {"Importance": 4.763935326873814e-07, "Variable": "locnombre_CANDELARIA"},
+        {"Importance": 4.7241746287624997e-07, "Variable": "actividad_44"},
+        {"Importance": 4.5709256296975706e-07,
+        "Variable": "actividad_economica_tipo_0"},
+        {"Importance": 4.553464342288727e-07,
+        "Variable": "actividad_economica_tipo_3"},
+        {"Importance": 4.536960559973911e-07, "Variable": "loccodigo_3.0"},
+        {"Importance": 3.8032812939412084e-07, "Variable": "suelo_6"},
+        {"Importance": 3.759426410312637e-07, "Variable": "actividad_42"},
+        {"Importance": 3.6512036788731226e-07, "Variable": "loccodigo_12.0"},
+        {"Importance": 3.347107751394823e-07, "Variable": "serpub_13"},
+        {"Importance": 3.217966628968832e-07, "Variable": "locnombre_SANTA FE"},
+        {"Importance": 3.1706318777556176e-07, "Variable": "actividad_economica_24"},
+        {"Importance": 3.0013584284088306e-07, "Variable": "via_541"},
+        {"Importance": 2.842286802492474e-07, "Variable": "tratamiento_urb_33"},
+        {"Importance": 2.7360708312197786e-07, "Variable": "loccodigo_18.0"},
+        {"Importance": 2.51108085134083e-07,
+        "Variable": "locnombre_RAFAEL URIBE URIBE"},
+        {"Importance": 2.424877893669387e-07, "Variable": "via_100"},
+        {"Importance": 2.3696005524167463e-07,
+        "Variable": "oft_tipo_inmueble_Garaje"},
+        {"Importance": 2.278258106087305e-07, "Variable": "loccodigo_6.0"},
+        {"Importance": 2.2012316386704217e-07, "Variable": "actividad_80"},
+        {"Importance": 2.131301420375948e-07, "Variable": "actividad_52"},
+        {"Importance": 1.8834131806066275e-07, "Variable": "locnombre_TUNJUELITO"},
+        {"Importance": 1.863996038801895e-07, "Variable": "locnombre_USME"},
+        {"Importance": 1.7495243306668727e-07, "Variable": "tratamiento_urb_2"},
+        {"Importance": 1.6826003266154531e-07, "Variable": "actividad_72"},
+        {"Importance": 1.6680844332503302e-07, "Variable": "via_321"},
+        {"Importance": 1.5584750171180665e-07, "Variable": "tipo_segun_actividad_8"},
+        {"Importance": 1.5290602584542514e-07,
+        "Variable": "actividad_economica_tipo_5"},
+        {"Importance": 1.4798837843907574e-07, "Variable": "loccodigo_15.0"},
+        {"Importance": 1.3339252862413564e-07, "Variable": "actividad_economica_18"},
+        {"Importance": 1.238489479524561e-07, "Variable": "via_511"},
+        {"Importance": 1.2252418574195084e-07, "Variable": "loccodigo_7.0"},
+        {"Importance": 1.2195959384145901e-07,
+        "Variable": "locnombre_CIUDAD BOLIVAR"},
+        {"Importance": 1.1953016759931563e-07, "Variable": "tratamiento_urb_1"},
+        {"Importance": 1.1639919377650751e-07, "Variable": "actividad_31"},
+        {"Importance": 1.0186763579913835e-07, "Variable": "actividad_4"},
+        {"Importance": 8.245552955669441e-08, "Variable": "tratamiento_urb_31"},
+        {"Importance": 8.146059077149115e-08,
+        "Variable": "oft_tipo_inmueble_Apartaestudio"},
+        {"Importance": 7.484967934337572e-08, "Variable": "via_331"},
+        {"Importance": 7.196811940325721e-08, "Variable": "clase_via_3"},
+        {"Importance": 7.192612817579624e-08, "Variable": "tratamiento_urb_77"},
+        {"Importance": 6.761970081802913e-08, "Variable": "via_311"},
+        {"Importance": 4.3796122204325526e-08, "Variable": "via_421"},
+        {"Importance": 4.308021477719041e-08, "Variable": "loccodigo_19.0"},
+        {"Importance": 4.0756898942504075e-08, "Variable": "actividad_43"},
+        {"Importance": 2.9872889836608096e-08, "Variable": "actividad_73"},
+        {"Importance": 2.841036930266245e-08, "Variable": "actividad_economica_34"},
+        {"Importance": 2.7603894639854627e-08, "Variable": "loccodigo_17.0"},
+        {"Importance": 2.7338636658781493e-08, "Variable": "actividad_economica_52"},
+        {"Importance": 2.5154541513147077e-08, "Variable": "actividad_2"},
+        {"Importance": 1.8836579191957045e-08, "Variable": "tratamiento_urb_3"},
+        {"Importance": 1.8052672922833808e-08, "Variable": "actividad_33"},
+        {"Importance": 1.5768860289225182e-08, "Variable": "serpub_tipo_1"},
+        {"Importance": 1.567821517053143e-08, "Variable": "actividad_1"},
+        {"Importance": 9.818639883292465e-09, "Variable": "tratamiento_urb_53"},
+        {"Importance": 9.6953700291383e-09, "Variable": "actividad_economica_3"},
+        {"Importance": 7.422272625549781e-09, "Variable": "tratamiento_urb_70"},
+        {"Importance": 6.733215225013346e-09,
+        "Variable": "oft_tipo_inmueble_Consultorio"},
+        {"Importance": 5.563457699078046e-09, "Variable": "serpub_tipo_0"},
+        {"Importance": 5.072636546419777e-09, "Variable": "serpub_41"},
+        {"Importance": 4.780331343197805e-09,
+        "Variable": "oft_tipo_inmueble_Edificio comercial"},
+        {"Importance": 4.049345788833096e-09, "Variable": "actividad_economica_42"},
+        {"Importance": 2.9262375704351526e-09, "Variable": "actividad_economica_51"},
+        {"Importance": 2.5649281055805918e-09, "Variable": "serpub_tipo_4"},
+        {"Importance": 2.422838094559811e-09, "Variable": "tratamiento_urb_12"},
+        {"Importance": 2.1411113272126232e-09, "Variable": "influencia_via_0"},
+        {"Importance": 2.117274902061327e-09, "Variable": "serpub_16"},
+        {"Importance": 2.071231682970657e-09, "Variable": "tratamiento_urb_65"},
+        {"Importance": 2.0646053481012426e-09, "Variable": "serpub_33"},
+        {"Importance": 1.9365380419338357e-09, "Variable": "serpub_tipo_3"},
+        {"Importance": 1.8712061981168553e-09, "Variable": "serpub_43"},
+        {"Importance": 1.2409389554809043e-09, "Variable": "clase_via_2"},
+        {"Importance": 9.492905066217974e-10, "Variable": "tipo_segun_actividad_0"},
+        {"Importance": 1.818723253840477e-10, "Variable": "via_512"},
+        {"Importance": 1.6473783258179333e-10,
+        "Variable": "oft_tipo_inmueble_Casa comercial"},
+        {"Importance": 1.537934255429094e-10, "Variable": "serpub_tipo_2"},
+        {"Importance": 8.28105952928622e-11, "Variable": "via_211"},
+        {"Importance": 6.690538995944735e-11, "Variable": "actividad_32"},
+        {"Importance": 1.83329407086803e-11, "Variable": "actividad_economica_44"},
+        {"Importance": 1.714382536029027e-11, "Variable": "actividad_economica_54"},
+        {"Importance": 1.0053780146162061e-11, "Variable": "actividad_63"},
+        {"Importance": 2.588101862141191e-12, "Variable": "estado_via_0"},
+        {"Importance": 2.3701586486814016e-13, "Variable": "tratamiento_urb_8"},
+        {"Importance": 1.8588335570067286e-13, "Variable": "serpub_especif_6"},
+        {"Importance": 8.247743455545833e-23,
+        "Variable": "oft_tipo_inmueble_Casa campestre"}]
+    }]
+},  {
+    "model_id": 3,
+    "name": "Random forest all the variables",
+        "Description": "Randon forest with only a little part of the dataset with the complete data in all the features",
+    "data": [{
+        "Type": "General",
+        "WARNING":"THIS MODEL WAS FITTED WITH ONLY 6918 REGISTER",
+        "Score in all the data": 0.8792979892666132,
+        "Score in test": 0.6744704931545284,
+        "Score in training": 0.9281604204620101,
+        "Cross Validation Score Mean":0.69,
+        "variables": [{"Importance": 0.17037233161010004,
+        "Variable": "oic_area_terreno"},
+        {"Importance": 0.06660323456109717, "Variable": "oic_area_construccion"},
+        {"Importance": 0.06278232512023141, "Variable": "actividad_economica_16"},
+        {"Importance": 0.05361843850522595, "Variable": "dm_mus"},
+        {"Importance": 0.049864866959716925, "Variable": "x"},
+        {"Importance": 0.04709962049516758, "Variable": "estrato_4.0"},
+        {"Importance": 0.043881168853094475, "Variable": "d_mus"},
+        {"Importance": 0.0432833211105424, "Variable": "dm_bom"},
+        {"Importance": 0.0364138245723949, "Variable": "d_highway"},
+        {"Importance": 0.03242865921752214, "Variable": "d_ssf"},
+        {"Importance": 0.0264329325112427, "Variable": "d_park"},
+        {"Importance": 0.025128571428271587, "Variable": "dm_p_tm"},
+        {"Importance": 0.01797252944359086, "Variable": "tipo_segun_actividad_6"},
+        {"Importance": 0.01620786941541748, "Variable": "d_bikeway"},
+        {"Importance": 0.014905282924337415, "Variable": "z"},
+        {"Importance": 0.013403695247544192, "Variable": "loccodigo_2.0"},
+        {"Importance": 0.013042887899968256, "Variable": "tipo_segun_actividad_4"},
+        {"Importance": 0.012973401749587212, "Variable": "d_tm"},
+        {"Importance": 0.012224355538791394, "Variable": "y"},
+        {"Importance": 0.011973648384659544, "Variable": "estrato_5.0"},
+        {"Importance": 0.01156402405830989, "Variable": "dm_ssf"},
+        {"Importance": 0.011139818215523142, "Variable": "dm_highway"},
+        {"Importance": 0.0104799343638223, "Variable": "dm_ies"},
+        {"Importance": 0.009960229051692998, "Variable": "d_p_tm"},
+        {"Importance": 0.008487825204171559, "Variable": "dm_gy"},
+        {"Importance": 0.00823140703963764, "Variable": "topografia_3"},
+        {"Importance": 0.008014842196266803, "Variable": "d_sitp"},
+        {"Importance": 0.007347489394447395, "Variable": "dm_tm"},
+        {"Importance": 0.007313602538428082, "Variable": "d_gy"},
+        {"Importance": 0.007240635180615727, "Variable": "dm_bikeway"},
+        {"Importance": 0.007125976927664965, "Variable": "d_bom"},
+        {"Importance": 0.00695966126973858, "Variable": "d_ies"},
+        {"Importance": 0.0065456692589261145, "Variable": "estrato_2.0"},
+        {"Importance": 0.006401281137469569, "Variable": "dm_ips"},
+        {"Importance": 0.006198318924757458, "Variable": "influencia_via_3"},
+        {"Importance": 0.00514815063768386, "Variable": "d_ips"},
+        {"Importance": 0.005037279384103623, "Variable": "d_col"},
+        {"Importance": 0.004729446474645366, "Variable": "loccodigo_13.0"},
+        {"Importance": 0.004547619983995024, "Variable": "actividad_economica_15"},
+        {"Importance": 0.004518406740559922, "Variable": "dm_lib"},
+        {"Importance": 0.004382049564019272, "Variable": "estrato_3.0"},
+        {"Importance": 0.004111296807323178, "Variable": "d_lib"},
+        {"Importance": 0.00399894212933337,
+        "Variable": "oft_tipo_inmueble_Edificio"},
+        {"Importance": 0.0037816474388862715, "Variable": "actividad_21"},
+        {"Importance": 0.0037554936690372296, "Variable": "serpub_51"},
+        {"Importance": 0.0036756252797960636, "Variable": "locnombre_TEUSAQUILLO"},
+        {"Importance": 0.0035611438488198912, "Variable": "topografia_1"},
+        {"Importance": 0.003293213058837289, "Variable": "dm_park"},
+        {"Importance": 0.003213253060984341, "Variable": "dm_col"},
+        {"Importance": 0.003088680099513693, "Variable": "dm_sitp"},
+        {"Importance": 0.0026370409432406095,
+        "Variable": "oft_tipo_norma_juridica_PH"},
+        {"Importance": 0.0026242891181942726, "Variable": "tipo_segun_actividad_2"},
+        {"Importance": 0.0025491636791048706,
+        "Variable": "oft_tipo_norma_juridica_NPH"},
+        {"Importance": 0.0022072148438587276, "Variable": "tipo_segun_actividad_1"},
+        {"Importance": 0.002022447398295158, "Variable": "actividad_23"},
+        {"Importance": 0.002015353729189238, "Variable": "actividad_economica_13"},
+        {"Importance": 0.0017941100240334957, "Variable": "tipo_segun_actividad_3"},
+        {"Importance": 0.0017161571844703817, "Variable": "oft_tipo_inmueble_Casa"},
+        {"Importance": 0.0016804902198072568, "Variable": "oia_cant_garajes"},
+        {"Importance": 0.0015667688284778751, "Variable": "tratamiento_urb_52"},
+        {"Importance": 0.0013219083131695373,
+        "Variable": "oft_tipo_inmueble_Apartamento"},
+        {"Importance": 0.001242365402746657,
+        "Variable": "oft_tipo_inmueble_Inmueble comercial"},
+        {"Importance": 0.0010732726732138084,
+        "Variable": "actividad_economica_tipo_2"},
+        {"Importance": 0.0010561778556483486, "Variable": "via_521"},
+        {"Importance": 0.000979171729823818, "Variable": "locnombre_CANDELARIA"},
+        {"Importance": 0.0009221248414124678, "Variable": "estado_via_3"},
+        {"Importance": 0.0008869589995832454, "Variable": "actividad_economica_14"},
+        {"Importance": 0.0008616685136094002, "Variable": "actividad_economica_12"},
+        {"Importance": 0.0008125462405700239, "Variable": "estado_via_2"},
+        {"Importance": 0.0008071676713663447, "Variable": "actividad_22"},
+        {"Importance": 0.0007417096151468486, "Variable": "actividad_economica_21"},
+        {"Importance": 0.0007360281490981224,
+        "Variable": "actividad_economica_tipo_1"},
+        {"Importance": 0.0007344134583380592, "Variable": "locnombre_USAQUEN"},
+        {"Importance": 0.000701613392572205, "Variable": "actividad_economica_22"},
+        {"Importance": 0.000692833200582659, "Variable": "tratamiento_urb_41"},
+        {"Importance": 0.0006695869113152888,
+        "Variable": "oft_tipo_inmueble_Bodega"},
+        {"Importance": 0.0006587314756651312, "Variable": "locnombre_SUBA"},
+        {"Importance": 0.00047750366513831443, "Variable": "via_531"},
+        {"Importance": 0.0004404915760502779, "Variable": "actividad_51"},
+        {"Importance": 0.000390056066287572,
+        "Variable": "oft_tipo_inmueble_Casa uso mixto"},
+        {"Importance": 0.0003487567730476102, "Variable": "tipo_segun_actividad_5"},
+        {"Importance": 0.00033764106067729675, "Variable": "actividad_52"},
+        {"Importance": 0.0003212844237188804, "Variable": "actividad_41"},
+        {"Importance": 0.00031506941852078716, "Variable": "cp_terr_ar_N"},
+        {"Importance": 0.00029629380324741557, "Variable": "actividad_43"},
+        {"Importance": 0.00025720994320526264, "Variable": "tratamiento_urb_21"},
+        {"Importance": 0.0002559256516048065, "Variable": "tratamiento_urb_77"},
+        {"Importance": 0.00025200418861155244, "Variable": "cp_terr_ar_P"},
+        {"Importance": 0.00022265306066568015, "Variable": "loccodigo_11.0"},
+        {"Importance": 0.0002142877528707464, "Variable": "actividad_economica_23"},
+        {"Importance": 0.00020896817486184852, "Variable": "estrato_1.0"},
+        {"Importance": 0.00020767634377839058, "Variable": "locnombre_ENGATIVA"},
+        {"Importance": 0.00020748867975446016, "Variable": "actividad_46"},
+        {"Importance": 0.00020092984456284815, "Variable": "loccodigo_9.0"},
+        {"Importance": 0.00019864920614699288, "Variable": "tipo_segun_actividad_7"},
+        {"Importance": 0.00019534503326740986, "Variable": "locnombre_CHAPINERO"},
+        {"Importance": 0.00018793824315485732, "Variable": "influencia_via_4"},
+        {"Importance": 0.00018013659534048908, "Variable": "loccodigo_10.0"},
+        {"Importance": 0.00017667169952144518, "Variable": "via_523"},
+        {"Importance": 0.000176579160957092, "Variable": "clase_via_5"},
+        {"Importance": 0.0001712323830820755, "Variable": "loccodigo_4.0"},
+        {"Importance": 0.00016947500789256457, "Variable": "oft_tipo_inmueble_Lote"},
+        {"Importance": 0.00015054478478792625, "Variable": "influencia_via_2"},
+        {"Importance": 0.00013911496685312482, "Variable": "serpub_especif_1"},
+        {"Importance": 0.00013679165194864382, "Variable": "tratamiento_urb_22"},
+        {"Importance": 0.00013674956448779977, "Variable": "loccodigo_3.0"},
+        {"Importance": 0.0001358958207944288, "Variable": "locnombre_FONTIBON"},
+        {"Importance": 0.00012605935586174874, "Variable": "locnombre_SANTA FE"},
+        {"Importance": 0.00011927919213913363, "Variable": "via_522"},
+        {"Importance": 0.00011889528916167574, "Variable": "loccodigo_12.0"},
+        {"Importance": 0.00011818137860617136,
+        "Variable": "oft_tipo_inmueble_Oficina"},
+        {"Importance": 0.00011758644615016702, "Variable": "estrato_6.0"},
+        {"Importance": 0.00010746961517808391, "Variable": "influencia_via_1"},
+        {"Importance": 0.00010554254520533089, "Variable": "actividad_economica_17"},
+        {"Importance": 9.883595535717984e-05, "Variable": "tratamiento_urb_32"},
+        {"Importance": 9.640093168722379e-05, "Variable": "via_532"},
+        {"Importance": 7.512498644318338e-05, "Variable": "topografia_2"},
+        {"Importance": 7.443783134193864e-05,
+        "Variable": "locnombre_CIUDAD BOLIVAR"},
+        {"Importance": 7.393121397712123e-05, "Variable": "tratamiento_urb_33"},
+        {"Importance": 7.38456908443428e-05, "Variable": "tratamiento_urb_51"},
+        {"Importance": 7.104630895639062e-05, "Variable": "clase_via_4"},
+        {"Importance": 7.070822906822545e-05, "Variable": "loccodigo_7.0"},
+        {"Importance": 7.034448566266152e-05, "Variable": "tratamiento_urb_45"},
+        {"Importance": 6.588704273027377e-05, "Variable": "loccodigo_1.0"},
+        {"Importance": 6.517033849389147e-05, "Variable": "loccodigo_6.0"},
+        {"Importance": 6.304821803174957e-05,
+        "Variable": "locnombre_RAFAEL URIBE URIBE"},
+        {"Importance": 5.426189942539709e-05, "Variable": "locnombre_BOSA"},
+        {"Importance": 5.248390298092792e-05,
+        "Variable": "oft_tipo_inmueble_Casa lote"},
+        {"Importance": 5.231130681667146e-05, "Variable": "oft_tipo_inmueble_Local"},
+        {"Importance": 5.2133119301075275e-05, "Variable": "locnombre_KENNEDY"},
+        {"Importance": 5.1767842426553105e-05, "Variable": "actividad_71"},
+        {"Importance": 4.595037408534444e-05, "Variable": "via_533"},
+        {"Importance": 4.509291731263418e-05, "Variable": "tratamiento_urb_2"},
+        {"Importance": 4.2356004226074113e-05,
+        "Variable": "locnombre_ANTONIO NARIÑO"},
+        {"Importance": 4.1055995321868076e-05, "Variable": "loccodigo_8.0"},
+        {"Importance": 4.058520146572049e-05, "Variable": "via_321"},
+        {"Importance": 4.056482800040987e-05, "Variable": "tratamiento_urb_23"},
+        {"Importance": 3.6788829951596734e-05,
+        "Variable": "oft_tipo_inmueble_Parqueadero - lava autos"},
+        {"Importance": 3.255325119281463e-05, "Variable": "via_411"},
+        {"Importance": 2.7551499234874002e-05,
+        "Variable": "locnombre_PUENTE ARANDA"},
+        {"Importance": 2.590475045082518e-05, "Variable": "estado_via_1"},
+        {"Importance": 2.512435747495282e-05,
+        "Variable": "oft_tipo_inmueble_Dotacional"},
+        {"Importance": 2.4621804366362017e-05, "Variable": "clase_via_3"},
+        {"Importance": 2.456535861916361e-05, "Variable": "serpub_1"},
+        {"Importance": 2.2073700520284528e-05,
+        "Variable": "locnombre_BARRIOS UNIDOS"},
+        {"Importance": 2.0587121945651196e-05, "Variable": "loccodigo_16.0"},
+        {"Importance": 1.950433291257141e-05, "Variable": "locnombre_USME"},
+        {"Importance": 1.8523503987950544e-05, "Variable": "loccodigo_14.0"},
+        {"Importance": 1.842057595019284e-05, "Variable": "loccodigo_19.0"},
+        {"Importance": 1.6537861880336886e-05,
+        "Variable": "oft_tipo_inmueble_Edificio comercial"},
+        {"Importance": 1.4977555750009525e-05,
+        "Variable": "actividad_economica_tipo_3"},
+        {"Importance": 1.4165152398737358e-05, "Variable": "via_511"},
+        {"Importance": 1.3372065310094287e-05, "Variable": "actividad_economica_32"},
+        {"Importance": 1.1485628090287919e-05, "Variable": "via_331"},
+        {"Importance": 9.882246226942325e-06, "Variable": "serpub_tipo_0"},
+        {"Importance": 9.803882269024058e-06, "Variable": "loccodigo_18.0"},
+        {"Importance": 9.082595290660343e-06, "Variable": "loccodigo_5.0"},
+        {"Importance": 8.400821217655116e-06, "Variable": "actividad_45"},
+        {"Importance": 8.361753176697439e-06, "Variable": "loccodigo_15.0"},
+        {"Importance": 8.107277374371823e-06, "Variable": "actividad_economica_34"},
+        {"Importance": 7.941133791349124e-06,
+        "Variable": "oft_tipo_inmueble_Garaje"},
+        {"Importance": 7.5931875583340016e-06, "Variable": "serpub_tipo_5"},
+        {"Importance": 7.286572473776459e-06, "Variable": "tratamiento_urb_11"},
+        {"Importance": 5.544056394903671e-06, "Variable": "actividad_3"},
+        {"Importance": 5.330732533200861e-06, "Variable": "locnombre_SAN CRISTOBAL"},
+        {"Importance": 5.253559884610715e-06, "Variable": "via_524"},
+        {"Importance": 4.360786979574497e-06, "Variable": "tratamiento_urb_24"},
+        {"Importance": 3.4925123779479158e-06, "Variable": "serpub_tipo_2"},
+        {"Importance": 2.2894142290806904e-06, "Variable": "via_421"},
+        {"Importance": 2.163472380905539e-06, "Variable": "locnombre_TUNJUELITO"},
+        {"Importance": 1.7392615193273446e-06, "Variable": "locnombre_LOS MARTIRES"},
+        {"Importance": 1.6485969134246546e-06, "Variable": "actividad_1"},
+        {"Importance": 1.2763863813413628e-06, "Variable": "actividad_4"},
+        {"Importance": 1.2010316699030403e-06, "Variable": "estado_via_4"},
+        {"Importance": 8.965655727069898e-07, "Variable": "actividad_economica_2"},
+        {"Importance": 6.788488779749269e-07, "Variable": "via_544"},
+        {"Importance": 6.706526110924758e-07, "Variable": "via_211"},
+        {"Importance": 6.520633110188927e-07, "Variable": "serpub_33"},
+        {"Importance": 5.724085514226898e-07, "Variable": "via_534"},
+        {"Importance": 4.397971524134924e-07, "Variable": "serpub_tipo_1"},
+        {"Importance": 2.933479739664429e-07, "Variable": "suelo_6"},
+        {"Importance": 2.7459498903467654e-07, "Variable": "serpub_especif_3"},
+        {"Importance": 1.56168075764244e-07, "Variable": "actividad_economica_3"},
+        {"Importance": 1.4313349010549747e-07, "Variable": "tratamiento_urb_53"},
+        {"Importance": 1.2621653837449872e-07, "Variable": "actividad_economica_11"},
+        {"Importance": 1.235194345725258e-07, "Variable": "clase_via_2"},
+        {"Importance": 8.434973195586939e-08, "Variable": "via_311"},
+        {"Importance": 8.320379507782375e-08, "Variable": "actividad_31"},
+        {"Importance": 8.026700293963504e-08, "Variable": "serpub_21"},
+        {"Importance": 7.820962848329769e-08, "Variable": "actividad_61"},
+        {"Importance": 7.158243867362152e-08, "Variable": "suelo_5"},
+        {"Importance": 5.4274767158093806e-08, "Variable": "serpub_13"},
+        {"Importance": 1.8799000894716924e-08, "Variable": "serpub_tipo_4"},
+        {"Importance": 7.790835048087131e-09, "Variable": "actividad_72"},
+        {"Importance": 4.07088350044098e-09, "Variable": "via_512"},
+        {"Importance": 4.0332473522462585e-09, "Variable": "loccodigo_17.0"},
+        {"Importance": 1.3634954591182523e-09, "Variable": "influencia_via_0"},
+        {"Importance": 1.3076875036531748e-09, "Variable": "actividad_62"},
+        {"Importance": 9.090818110388127e-10, "Variable": "tratamiento_urb_3"}]
+            }]
+}, 
+{"model_id": -1, 
+    "name": "Regression Neural Network", 
+    "Description": "Neural Network implemented under Keras framework", 
+    "data": [{"Type": "General", 
+        "Objective Function": "mean_squared_error", 
+        "optimizer": "Adam", 
+        "Architecture":"",
+        "Input Layer": "92 nodes", 
+        "First Hidden Layer": "4600 nodes", 
+        "Second Hidden Layer": "4600 nodes", 
+        "Third Hidden Layer": "4600 nodes", 
+        "Fourth Hidden Layer": "4600 nodes", 
+        "Output Layer": "1 nodes", 
+        "Final Objective Function Value (Loss)": "0.3553", 
+        "Final R Square Value (R2)": "0.5952", 
+        "Variables": ["x", 
+                        "y", 
+                        "d_park", 
+                        "d_highway", 
+                        "d_bikeway", 
+                        "d_ssf", 
+                        "d_mus", 
+                        "d_lib", 
+                        "d_sitp", 
+                        "d_tm", 
+                        "d_p_tm", 
+                        "d_gy", 
+                        "d_ies", 
+                        "d_bom", 
+                        "d_col", 
+                        "d_ips", 
+                        "oft_tipo_inmueble", 
+                        "oic_area_terreno", 
+                        "oia_cant_garajes", 
+                        "loccodigo", 
+                        "actividad_economica", 
+                        "estrato"]}]}
+,{
+    "model_id": -1,
+    "name": "Base del esquema no borrar",
+    "Description": "Modelo regresion lineal simple logaritmo nivel",
+    "data": [{
+        "Type": "General",
+        "R2_Adjust": "0.58",
+        "test_score": "0.8",
+        "cross_val": 0.8
+    }, {
+        "Type": "Estrato",
+        "data": [{
+            "Estrato": 1,
+            "R2_Adjust": "0.58",
+            "test_score": "0.8",
+            "cross_val": 0.8
+        }, {
+            "Estrato": 2,
+            "R2_Adjust": "0.58",
+            "test_score": "0.8",
+            "cross_val": 0.8
+        }, {
+            "Estrato": 3,
+            "R2_Adjust": "0.58",
+            "test_score": "0.8",
+            "cross_val": 0.8
+        }, {
+            "Estrato": 4,
+            "R2_Adjust": "0.58",
+            "test_score": "0.8",
+            "cross_val": 0.8
+        }, {
+            "Estrato": 5,
+            "R2_Adjust": "0.58",
+            "test_score": "0.8",
+            "cross_val": 0.8
+        }, {
+            "Estrato": 6,
+            "R2_Adjust": "0.58",
+            "test_score": "0.8",
+            "cross_val": 0.8
+        }]
+    }]
+}]
